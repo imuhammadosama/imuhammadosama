@@ -1,0 +1,121 @@
+.blogs-page {
+  padding: 4rem 0rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem 4rem 0rem;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgb(34 40 47 / 12%);
+  margin-bottom: 1rem;
+  padding: 8px 8px;
+  width: 31%;
+  position: relative;
+}
+
+.blog-card-link {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  animation: animation-blog-card-link 0.15s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes animation-blog-card-link {
+  from {
+    bottom: 0px;
+    right: 0px;
+    opacity: 0%;
+  }
+  to {
+    bottom: 10px;
+    right: 10px;
+    opacity: 100%;
+  }
+}
+
+.blog-card:hover .blog-card-link {
+  display: block;
+}
+
+.blog-card-link > svg {
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 6px;
+  transition: 0.15s ease;
+  border-radius: 10px;
+}
+
+.blog-card-link > svg:hover {
+  background-color: var(--primary);
+}
+.blog-card-link > svg:hover .arrow {
+  fill: white;
+}
+
+.blog-card:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.blog-card-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-card-title {
+  font-size: 18px;
+  padding: 12px 8px 12px 8px;
+  font-weight: 600;
+}
+
+.blog-card-description {
+  font-size: 14px;
+  padding: 4px 8px 14px 8px;
+  color: #777;
+}
+
+.blog-card-tags {
+  font-size: 10px;
+  padding: 8px 8px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+
+.blog-search {
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  padding: 1rem 4rem;
+  font-family: 'Sora';
+  font-size: 24px;
+  letter-spacing: -1px;
+  outline: none;
+  background-image: url(https://svgur.com/i/iGz.svg);
+  background-repeat: no-repeat;
+  background-position: 16px 50%;
+  width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-card {
+    width: 100%;
+    margin: 0rem 1rem 1rem 1rem;
+  }
+  .blog-cards {
+    padding: 0px;
+  }
+  .blog-search {
+    margin: 1rem;
+  }
+  .blogs-page {
+    padding: 1rem 0rem;
+  }
+}

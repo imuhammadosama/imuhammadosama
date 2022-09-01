@@ -1,0 +1,1 @@
+<img height=20 src="https://img.shields.io/badge/language-javascript-yellow"> <img height=20 src="https://img.shields.io/badge/version-1.0-red" /> <a href="https://imuhammadosama.com" target="_blank" style="text-align:center;"><img height=20 src="https://img.shields.io/badge/website-live-brightgreen" /></a> 
