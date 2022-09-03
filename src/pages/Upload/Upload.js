@@ -86,7 +86,7 @@ export default function Upload() {
           src={
             file
               ? URL.createObjectURL(file[0])
-              : 'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662050073/Group_1_lejk6s.png'
+              : 'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662211159/cfcrzb6wuqrbgmvzz6ee.webp'
           }
           height='150px'
         />
