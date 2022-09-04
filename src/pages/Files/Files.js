@@ -41,12 +41,15 @@ export default function () {
     }
   }
 
+  // if (loading) {
+  //   return (
+  //     <div className='center-center'>
+  //       <img src='https://res.cloudinary.com/imuhammadosama/image/upload/v1658069428/Portfolio/Loading_b2lqoz.gif' />
+  //     </div>
+  //   );
+  // }
   if (loading) {
-    return (
-      <div className='center-center'>
-        <img src='https://res.cloudinary.com/imuhammadosama/image/upload/v1658069428/Portfolio/Loading_b2lqoz.gif' />
-      </div>
-    );
+    return <div className='center-center'>Loading...</div>;
   }
   return (
     <div className='file-page'>

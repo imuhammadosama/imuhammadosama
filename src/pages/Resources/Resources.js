@@ -23,26 +23,6 @@ export default function () {
           </div>
           <div
             className={
-              filter === 'Links'
-                ? 'resources-filter-active clickable'
-                : 'resources-filter clickable'
-            }
-            onClick={() => setFilter('Links')}
-          >
-            Links
-          </div>
-          <div
-            className={
-              filter === 'Icons'
-                ? 'resources-filter-active clickable'
-                : 'resources-filter clickable'
-            }
-            onClick={() => setFilter('Icons')}
-          >
-            Icons
-          </div>
-          <div
-            className={
               filter === 'Videos'
                 ? 'resources-filter-active clickable'
                 : 'resources-filter clickable'
@@ -51,16 +31,6 @@ export default function () {
           >
             Videos
           </div>
-          <div
-            className={
-              filter === 'Upload'
-                ? 'resources-filter-active clickable'
-                : 'resources-filter clickable'
-            }
-            onClick={() => setFilter('Upload')}
-          >
-            Upload
-          </div>
         </div>
       </div>
       <div className='resources-selected'>
@@ -68,8 +38,6 @@ export default function () {
           <Files />
         ) : filter === 'Videos' ? (
           <Videos />
-        ) : filter === 'Upload' ? (
-          <Upload />
         ) : (
           <div></div>
         )}
