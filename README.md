@@ -6,7 +6,7 @@ My name is Muhammad Osama and I'm a website developer, from Pakistan.
 
 ✨ Creating bugs since 2018. <br>
 📚 I'm currently learning Typescript. <br>
-🎯 Goals: I want to become a tech youtuber. <br>
+🎯 Goals: Do 1 year of consistent coding. <br>
 🎲 Fun fact: Applied 5 times for the Army, but failed.
 
 ## I code with
