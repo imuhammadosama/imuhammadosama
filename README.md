@@ -4,10 +4,10 @@ My name is Muhammad Osama and I'm a website developer, from Pakistan.
 
 ## About me
 
-🔭 I’m currently working on https://scrollreddit.com/<br>
-🌱 I’m currently learning TypeScript.<br>
-📫 How to reach me: imuhammadosama@icloud.com<br>
-🌐 My portfolio: https://imuhammadosama.com
+✨ Creating bugs since 2018. <br>
+📚 I'm currently learning Typescript. <br>
+🎯 Goals: I want to become a tech youtuber. <br>
+🎲 Fun fact: Applied 5 times for the Army, but failed.
 
 ## I code with
 
