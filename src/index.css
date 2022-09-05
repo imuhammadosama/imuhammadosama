@@ -30,6 +30,15 @@ body {
   display: none;
 }
 
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
 .center-center {
   display: flex;
   justify-content: center;
@@ -40,4 +49,20 @@ body {
 .center-top {
   display: flex;
   justify-content: center;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.secondary-button {
+  font-family: 'Sora';
+  background-color: #333;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
 }
