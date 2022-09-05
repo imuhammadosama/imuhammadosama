@@ -83,24 +83,7 @@ export default function () {
         >
           Resources
         </Link>
-        <Link
-          to='icons'
-          className={
-            selectedItem === 'Icons' ? 'menu-item-active' : 'menu-item'
-          }
-          onClick={() => setSelectedItem('Icons')}
-        >
-          Icons
-        </Link>
-        <Link
-          to='upload'
-          className={
-            selectedItem === 'Upload' ? 'menu-item-active' : 'menu-item'
-          }
-          onClick={() => setSelectedItem('Upload')}
-        >
-          Upload
-        </Link>
+
         <Link
           to='contact'
           className={
