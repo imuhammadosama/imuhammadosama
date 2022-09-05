@@ -1,7 +1,7 @@
 export const reviews = [
   {
     image:
-      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
     name: 'John Smith',
     title: 'Client from Fiverr',
     review:
@@ -9,7 +9,7 @@ export const reviews = [
   },
   {
     image:
-      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
     name: 'John Smith',
     title: 'Client from Fiverr',
     review:
@@ -17,7 +17,7 @@ export const reviews = [
   },
   {
     image:
-      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
     name: 'John Smith',
     title: 'Client from Fiverr',
     review:
@@ -25,7 +25,7 @@ export const reviews = [
   },
   {
     image:
-      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
     name: 'John Smith',
     title: 'Client from Fiverr',
     review:
@@ -33,7 +33,7 @@ export const reviews = [
   },
   {
     image:
-      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
     name: 'John Smith',
     title: 'Client from Fiverr',
     review:
@@ -41,7 +41,7 @@ export const reviews = [
   },
   {
     image:
-      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
     name: 'John Smith',
     title: 'Client from Fiverr',
     review:
