@@ -13,6 +13,9 @@ export default function Work() {
   const [selectedType, setSelectedType] = useState('All');
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // useEffect(() => {
   //   async function fetch() {
   //     setLoading(true);
