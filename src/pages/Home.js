@@ -4,6 +4,7 @@ import axios from 'axios';
 import { websites } from '../data/websites';
 
 import Hero from '../components/Hero/Hero';
+import Reviews from '../components/Reviews/Reviews';
 
 export default function Home() {
   const [portfolioItems, setPortfolioItems] = useState(websites);
@@ -50,18 +51,17 @@ export default function Home() {
     return 'type';
   }
 
-  // if (loading) {
-  //   return (
-  //     <div className='center-center'>
-  //       <img src='https://res.cloudinary.com/imuhammadosama/image/upload/v1658069428/Portfolio/Loading_b2lqoz.gif' />
-  //     </div>
-  //   );
-  // }
+  if (loading) {
+    return (
+      <div className='center-center'>
+        <img src='https://res.cloudinary.com/imuhammadosama/image/upload/v1658069428/Portfolio/Loading_b2lqoz.gif' />
+      </div>
+    );
+  }
 
   return (
     <div>
       <Hero />
-
       <div>
         <div className='filters'>
           {types.map((type, index) => {
@@ -76,7 +76,6 @@ export default function Home() {
             );
           })}
         </div>
-
         <div className='portfolio'>
           {currentPortfolioItems.map((item, index) => {
             return (
@@ -90,6 +89,7 @@ export default function Home() {
           })}
         </div>
       </div>
+      <Reviews />
     </div>
   );
 }
