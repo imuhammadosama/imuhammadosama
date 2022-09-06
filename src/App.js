@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Blogs from './pages/Blogs/Blogs';
 import Blog from './pages/Blogs/Blog/Blog';
 import About from './pages/About/About';
-import Work from './pages/Work/Work';
 import Resources from './pages/Resources/Resources';
 import Files from './pages/Files/Files';
 import Contact from './pages/Contact/Contact';
@@ -22,7 +21,6 @@ function App() {
         <Route exact path='/blog' element={<Blogs />} />
         <Route exact path='/blog/:id' element={<Blog />} />
         <Route exact path='/about' element={<About />} />
-        <Route exact path='/work' element={<Work />} />
         <Route exact path='/resources' element={<Resources />} />
         <Route exact path='/resources/files' element={<Files />} />
         <Route exact path='/contact' element={<Contact />} />

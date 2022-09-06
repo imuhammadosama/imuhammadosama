@@ -60,13 +60,7 @@ export default function () {
         >
           About
         </Link>
-        <Link
-          to='work'
-          className={selectedItem === 'Work' ? 'menu-item-active' : 'menu-item'}
-          onClick={() => setSelectedItem('Work')}
-        >
-          Work
-        </Link>
+
         <Link
           to='blog'
           className={selectedItem === 'Blog' ? 'menu-item-active' : 'menu-item'}
@@ -181,15 +175,6 @@ export default function () {
                 className='burger-item'
               >
                 About
-              </Link>
-            </div>
-            <div className='burger-items'>
-              <Link
-                to='/work'
-                onClick={() => setSelectedItem('Work')}
-                className='burger-item'
-              >
-                Work
               </Link>
             </div>
             <div className='burger-items'>
