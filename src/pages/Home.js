@@ -1,35 +1,17 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+
 import Portfolio from '../components/Porfolio/Portfolio';
-import axios from 'axios';
+
 import { websites } from '../data/websites';
 
 import Hero from '../components/Hero/Hero';
 import Reviews from '../components/Reviews/Reviews';
 
 export default function Home() {
-  const navigate = useNavigate();
-  const [portfolioItems, setPortfolioItems] = useState(websites);
   const [currentPortfolioItems, setCurrentPortfolioItems] = useState(websites);
   const [selectedType, setSelectedType] = useState('All');
-  const [loading, setLoading] = useState(false);
   const [count, setCount] = useState(4);
-  const [end, setEnd] = useState(false);
 
-  // useEffect(() => {
-  //   async function fetch() {
-  //     setLoading(true);
-  //     const getWebsites = (
-  //       await axios.get(
-  //         'https://opensheet.elk.sh/1dMessZ5rcfU8d2VuZjY13rhJd5iOzW1p2rKH_d2sxio/1'
-  //       )
-  //     ).data;
-  //     setPortfolioItems(getWebsites);
-  //     setCurrentPortfolioItems(getWebsites);
-  //     setLoading(false);
-  //   }
-  //   fetch();
-  // }, []);
   const types = portfolioItems
     .map((portfolioItem) => portfolioItem.type)
     .filter((value, index, self) => self.indexOf(value) === index);
@@ -55,14 +37,6 @@ export default function Home() {
     return 'type';
   }
 
-  if (loading) {
-    return (
-      <div className='center-center'>
-        <img src='https://res.cloudinary.com/imuhammadosama/image/upload/v1658069428/Portfolio/Loading_b2lqoz.gif' />
-      </div>
-    );
-  }
-
   return (
     <div>
       <Hero />
@@ -71,7 +45,9 @@ export default function Home() {
           {types.map((type, index) => {
             return (
               <div
-                onClick={() => filter(type)}
+                onClick={() => {
+                  filter(type);
+                }}
                 className={getTagClass(type)}
                 key={index}
               >
@@ -95,23 +71,22 @@ export default function Home() {
           })}
         </div>
       </div>
-      {end ? (
-        ''
-      ) : (
+
+      {count >= currentPortfolioItems.length ? (
         <div className='flex center pt-24'>
           <button
             className='secondary-button'
             onClick={() => {
               setCount(count + 4);
-              count >= currentPortfolioItems.length
-                ? setEnd(true)
-                : setEnd(false);
             }}
           >
             Check More Work
           </button>
         </div>
+      ) : (
+        ''
       )}
+
       <Reviews />
     </div>
   );
