@@ -2,17 +2,19 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Portfolio from '../components/Porfolio/Portfolio';
 import axios from 'axios';
-import { samples } from '../data/samples';
+import { websites } from '../data/websites';
 
 import Hero from '../components/Hero/Hero';
 import Reviews from '../components/Reviews/Reviews';
 
 export default function Home() {
   const navigate = useNavigate();
-  const [portfolioItems, setPortfolioItems] = useState(samples);
-  const [currentPortfolioItems, setCurrentPortfolioItems] = useState(samples);
+  const [portfolioItems, setPortfolioItems] = useState(websites);
+  const [currentPortfolioItems, setCurrentPortfolioItems] = useState(websites);
   const [selectedType, setSelectedType] = useState('All');
   const [loading, setLoading] = useState(false);
+  const [count, setCount] = useState(4);
+  const [end, setEnd] = useState(false);
 
   // useEffect(() => {
   //   async function fetch() {
@@ -80,22 +82,36 @@ export default function Home() {
         </div>
         <div className='portfolio'>
           {currentPortfolioItems.map((item, index) => {
-            return (
+            return index < count ? (
               <Portfolio
                 link={item.link}
                 img={item.img}
                 title={item.title}
                 key={index}
               />
+            ) : (
+              ''
             );
           })}
         </div>
       </div>
-      <div className='flex center pt-24'>
-        <button className='secondary-button' onClick={() => navigate('/work')}>
-          Check More Work
-        </button>
-      </div>
+      {end ? (
+        ''
+      ) : (
+        <div className='flex center pt-24'>
+          <button
+            className='secondary-button'
+            onClick={() => {
+              setCount(count + 4);
+              count >= currentPortfolioItems.length
+                ? setEnd(true)
+                : setEnd(false);
+            }}
+          >
+            Check More Work
+          </button>
+        </div>
+      )}
       <Reviews />
     </div>
   );
