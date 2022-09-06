@@ -111,6 +111,16 @@ export default function Reviews() {
             </div>
           );
         })}
+        <button
+          className='secondary-button mt-16'
+          onClick={() =>
+            window.open(
+              'https://fiverr.com/imuhammadosama/#reviews_header_as_seller'
+            )
+          }
+        >
+          Read More Reviews
+        </button>
       </div>
     </div>
   );
