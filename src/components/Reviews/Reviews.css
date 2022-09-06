@@ -73,6 +73,7 @@
 .review-client-title {
   font-size: 12px;
   color: #27282ab3;
+  display: flex;
 }
 
 .review-client {
@@ -82,4 +83,12 @@
 }
 .review-client-image {
   padding-right: 16px;
+}
+
+#review-client-image {
+  border-radius: 25px;
+}
+
+.review-country {
+  margin-top: 1px;
 }

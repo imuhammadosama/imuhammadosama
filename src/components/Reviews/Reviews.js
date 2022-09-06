@@ -5,11 +5,9 @@ export default function Reviews() {
   return (
     <div>
       <div className='reviews-section'>
-        <div className='reviews-section-title'>Reviews from my clients</div>
+        <div className='reviews-section-title'>Reviews</div>
         <div className='reviews-section-description'>
-          With the right strategy and keeping in mind the user-experience. I can
-          build your website in such a way that your website will have greatest
-          impact on your business. Like it did on theirs!
+          Don't take my words for it - Take theirs.
         </div>
       </div>
       <div className='reviews'>
@@ -91,11 +89,23 @@ export default function Reviews() {
               <div className='review-review'>{review.review}</div>
               <div className='review-client'>
                 <div className='review-client-image'>
-                  <img src={review.image} width='48px' height='48px' />
+                  <img
+                    id='review-client-image'
+                    src={review.image}
+                    width='48px'
+                    height='48px'
+                  />
                 </div>
                 <div className='review-client-text'>
                   <div className='review-client-name'>{review.name}</div>
-                  <div className='review-client-title'>{review.title}</div>
+                  <div className='review-client-title'>
+                    Client from &nbsp;
+                    <img
+                      src={review.country}
+                      width='16px'
+                      className='review-country'
+                    />
+                  </div>
                 </div>
               </div>
             </div>

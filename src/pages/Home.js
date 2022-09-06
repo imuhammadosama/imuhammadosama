@@ -8,11 +8,11 @@ import Hero from '../components/Hero/Hero';
 import Reviews from '../components/Reviews/Reviews';
 
 export default function Home() {
-  const [currentPortfolioItems, setCurrentPortfolioItems] = useState(websites);
+  const [portfolioItems, setPortfolioItems] = useState(websites);
   const [selectedType, setSelectedType] = useState('All');
   const [count, setCount] = useState(4);
 
-  const types = portfolioItems
+  const types = websites
     .map((portfolioItem) => portfolioItem.type)
     .filter((value, index, self) => self.indexOf(value) === index);
   // .sort();
@@ -22,11 +22,11 @@ export default function Home() {
   function filter(value) {
     setSelectedType(value);
     if (value === 'All') {
-      setCurrentPortfolioItems(portfolioItems);
+      setPortfolioItems(websites);
       return;
     }
-    setCurrentPortfolioItems(
-      portfolioItems.filter((portfolioItem) => portfolioItem.type === value)
+    setPortfolioItems(
+      websites.filter((portfolioItem) => portfolioItem.type === value)
     );
   }
 
@@ -57,7 +57,7 @@ export default function Home() {
           })}
         </div>
         <div className='portfolio'>
-          {currentPortfolioItems.map((item, index) => {
+          {portfolioItems.map((item, index) => {
             return index < count ? (
               <Portfolio
                 link={item.link}
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </div>
 
-      {count >= currentPortfolioItems.length ? (
+      {count < websites.length ? (
         <div className='flex center pt-24'>
           <button
             className='secondary-button'

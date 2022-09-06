@@ -1,51 +1,58 @@
 export const reviews = [
   {
     image:
-      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
-    name: 'John Smith',
-    title: 'Client from Fiverr',
+      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662452786/v1ltopftj1c6vjkfo8zx.webp',
+    name: 'Jes Indra',
     review:
-      'With the right strategy and keeping in mind the user-experience. I can build your website.',
+      'Seller is amazing, He’s great at communicating. Definitely using for all future projects.',
+    country:
+      'https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1ec-1f1e7.png',
   },
   {
     image:
-      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
-    name: 'John Smith',
-    title: 'Client from Fiverr',
+      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662453188/q7mcmlpms4stkfsifb8l.webp',
+    name: 'Teez Zone',
     review:
-      'With the right strategy and keeping in mind the user-experience. I can build your website.',
+      'I love working with imuhammadosama!! He is super talented and easy to communicate with.',
+    country:
+      'https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png',
   },
   {
     image:
-      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
-    name: 'John Smith',
-    title: 'Client from Fiverr',
+      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662453307/qf2ax6iemuernhuoo3xf.webp',
+    name: 'Sophia Hanvold',
     review:
-      'With the right strategy and keeping in mind the user-experience. I can build your website.',
+      'Wish I would have worked with him from the beginning! Super easy to work with this seller, revisions were fast.',
+    country:
+      'https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1e8-1f1e6.png',
   },
   {
     image:
-      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
-    name: 'John Smith',
-    title: 'Client from Fiverr',
+      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662453752/cdcrrpgqazwxmlmpruiy.webp',
+    name: 'Next Line',
     review:
-      'With the right strategy and keeping in mind the user-experience. I can build your website.',
+      'The absolute best I have worked with when it comes to websites, design, communication, etc. You can not find a better guy.',
+    country:
+      'https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1f8-1f1ea.png',
   },
   {
     image:
-      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
-    name: 'John Smith',
-    title: 'Client from Fiverr',
+      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662453623/ftejtj8mbucziljkkdzj.webp',
+    name: 'Zehra Taqwi',
     review:
-      'With the right strategy and keeping in mind the user-experience. I can build your website.',
+      'A reliable seller who takes the clients wishes into consideration. He was happy to go over the work and implement my feedback. I am very happy with his work.',
+    country:
+      'https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1f8-1f1e6.png',
   },
   {
     image:
-      'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662403476/vdcrutxb1zr9ir00olb2.webp',
-    name: 'John Smith',
-    title: 'Client from Fiverr',
+      'http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1662453712/shsc3cj5x8lakl9iej57.webp',
+    name: 'Dr. Dana Robb',
     review:
-      'With the right strategy and keeping in mind the user-experience. I can build your website.',
+      'I have no idea what I would have done without you. It exceeded all expectations and the amount of time you took explaining everything.',
+    country:
+      'https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png',
   },
+
   //   { name: '', title: '', review: '' },
 ];
