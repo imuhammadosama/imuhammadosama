@@ -51,32 +51,6 @@ export default function () {
         >
           Home
         </Link>
-        <Link
-          to='about'
-          className={
-            selectedItem === 'About' ? 'menu-item-active' : 'menu-item'
-          }
-          onClick={() => setSelectedItem('About')}
-        >
-          About
-        </Link>
-
-        <Link
-          to='blog'
-          className={selectedItem === 'Blog' ? 'menu-item-active' : 'menu-item'}
-          onClick={() => setSelectedItem('Blog')}
-        >
-          Blog
-        </Link>
-        <Link
-          to='resources'
-          className={
-            selectedItem === 'Resources' ? 'menu-item-active' : 'menu-item'
-          }
-          onClick={() => setSelectedItem('Resources')}
-        >
-          Resources
-        </Link>
 
         <Link
           to='contact'
@@ -168,33 +142,7 @@ export default function () {
                 Home
               </Link>
             </div>
-            <div className='burger-items'>
-              <Link
-                to='/about'
-                onClick={() => setSelectedItem('About')}
-                className='burger-item'
-              >
-                About
-              </Link>
-            </div>
-            <div className='burger-items'>
-              <Link
-                to='/blog'
-                onClick={() => setSelectedItem('Blog')}
-                className='burger-item'
-              >
-                Blog
-              </Link>
-            </div>
-            <div className='burger-items'>
-              <Link
-                to='/resources'
-                onClick={() => setSelectedItem('Resources')}
-                className='burger-item'
-              >
-                Resources
-              </Link>
-            </div>
+
             <div className='burger-items'>
               <Link
                 to='/contact'
