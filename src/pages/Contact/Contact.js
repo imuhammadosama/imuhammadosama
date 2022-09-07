@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
@@ -22,9 +22,11 @@ export default function () {
           if (result.text === 'OK') {
             setIsSubmitted('yes');
             setIsSubmitting(false);
+            showToast();
           } else {
             setIsSubmitted('no');
             setIsSubmitting(false);
+            showToast();
           }
         },
         (error) => {
@@ -32,6 +34,15 @@ export default function () {
         }
       );
   };
+
+  function showToast() {
+    var x = document.getElementById('toast');
+    x.className = 'show';
+    setTimeout(function () {
+      x.className = x.className.replace('show', '');
+    }, 3000);
+  }
+
   return (
     <div className='contact-page'>
       <div className='contact-title'>
@@ -86,19 +97,12 @@ export default function () {
           </div>
         </form>
       </div>
-      {isSubmitted === 'yes' ? (
-        <div className='contact-message'>
-          I have recieved your message. <br />I will get back to you as soon as
-          possible. <br />
-          Thanks for your patience.
-        </div>
-      ) : isSubmitted === 'no' ? (
-        <div className='contact-message'>
-          Something went wrong! Kindly retry!
-        </div>
-      ) : (
-        ''
-      )}
+      <div id='toast'>
+        I have recieved your message. <br />I will get back to you as soon as
+        possible. <br />
+        Thanks for your patience.
+      </div>
+
       <div className='contact-page-footer'>
         <div className='contact-details'>
           <div className='contact-detail'>

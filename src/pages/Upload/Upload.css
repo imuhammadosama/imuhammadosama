@@ -50,7 +50,7 @@
 }
 
 .upload-label-icon:hover {
-  background-color: #f5f5f5;
+  background-color: var(--background);
 }
 
 .upload-label-input {
@@ -60,7 +60,7 @@
 .upload-button {
   font-family: 'Sora';
   background-color: #333;
-  color: #f5f5f5;
+  color: var(--background);
   padding: 8px 16px;
   border-radius: 10px;
   border: none;
