@@ -1,6 +1,6 @@
-# Hey 👋 What's up?
+# Hey there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
 
-My name is Muhammad Osama and I'm a website developer, from Pakistan.
+My name is Muhammad Osama and I'm a Website Designer & Developer. I'm a full time freelancer from Pakistan.
 
 ## About me
 
