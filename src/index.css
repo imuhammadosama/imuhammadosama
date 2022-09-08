@@ -6,8 +6,8 @@ html {
 
 :root {
   --primary: #1e1e1e;
-  --background: #fdfdfd;
-  /* --background: #f9f8f2; */
+  /* --background: #fdfdfd; */
+  --background: #f9f8f2;
 }
 
 body {
