@@ -17,11 +17,6 @@ My name is Muhammad Osama and I'm a Website Designer & Developer. I'm a full tim
 
 <a href="https://twitter.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707154/twitter_w7ui02.svg" alt="html" width="40" height="40"/></a> <a href="https://linkedin.com/in/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707154/linkedin_ev4oq6.svg" alt="html" width="40" height="40"/></a> <a href="https://instagram.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707154/instagram_slzlnc.svg" alt="html" width="40" height="40"/></a> <a href="https://www.tiktok.com/@imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707154/tiktok_bkgwwk.svg" alt="html" width="40" height="40"/></a> <a href="https://youtube.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707154/youtube_g7bp5m.svg" alt="html" width="40" height="40"/></a> <a href="https://facebook.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707154/facebook_a74kjj.svg" alt="html" width="40" height="40"/></a> 
 
-## Hire
-
-<a href="https://fiverr.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707604/fiverr_fsxxbw.png" alt="html"/></a> 
-
-
 ## Support
 
-<a href="https://buymeacoffee.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707602/buy-me-a-coffee_ynds2p.png" alt="html"/></a> <a href="https://www.paypal.com/paypalme/solverscave" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707604/paypal_wjsuov.png" alt="html"/></a> 
+<a href="https://buymeacoffee.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707602/buy-me-a-coffee_ynds2p.png" alt="html"/></a> <a href="https://www.paypal.com/paypalme/solverscave" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707604/paypal_wjsuov.png" alt="html"/></a> <a href="https://fiverr.com/imuhammadosama" target="_blank"><img src="https://res.cloudinary.com/dvwpbbisf/image/upload/v1662707604/fiverr_fsxxbw.png" alt="html"/></a> 
