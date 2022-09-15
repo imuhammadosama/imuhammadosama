@@ -10,12 +10,10 @@ import Reviews from '../components/Reviews/Reviews';
 export default function Home() {
   const [portfolioItems, setPortfolioItems] = useState(websites);
   const [selectedType, setSelectedType] = useState('All');
-  const [count, setCount] = useState(4);
 
   const types = websites
     .map((portfolioItem) => portfolioItem.type)
     .filter((value, index, self) => self.indexOf(value) === index);
-  // .sort();
 
   types.unshift('All');
 
@@ -58,34 +56,17 @@ export default function Home() {
         </div>
         <div className='portfolio'>
           {portfolioItems.map((item, index) => {
-            return index < count ? (
+            return (
               <Portfolio
                 link={item.link}
                 img={item.img}
                 title={item.title}
                 key={index}
               />
-            ) : (
-              ''
             );
           })}
         </div>
       </div>
-
-      {count < websites.length ? (
-        <div className='flex center pt-24'>
-          <button
-            className='secondary-button'
-            onClick={() => {
-              setCount(count + 4);
-            }}
-          >
-            Check More Work
-          </button>
-        </div>
-      ) : (
-        ''
-      )}
 
       <Reviews />
     </div>
