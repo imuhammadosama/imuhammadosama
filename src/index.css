@@ -6,7 +6,8 @@ html {
 
 :root {
   --primary: #1e1e1e;
-  --background: #fdfdfd;
+  --background: #faf8f5;
+  /* #f3cec7 #874b47 */
 }
 
 body {
@@ -73,5 +74,5 @@ body {
 }
 
 textarea:-internal-autofill-selected {
-  background-color: #e8f0fe;
+  background-color: var(--background);
 }
