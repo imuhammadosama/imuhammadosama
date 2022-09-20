@@ -30,6 +30,12 @@ export const websites = [
     type: 'React.js',
   },
   {
+    title: 'Scroll Reddit',
+    link: 'https://scrollreddit.com',
+    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660651503/Portfolio/scrollreddit.com_c4isux.webp',
+    type: 'React.js',
+  },
+  {
     title: 'Medicosurveillance',
     link: 'https://www.figma.com/proto/ZTulxdbQbJPI3uMoLfyWZe/Medicosurveillance?node-id=298%3A111&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=298%3A111&hide-ui=1',
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660735875/Portfolio/medicosurveillance_iyya3p.webp',
