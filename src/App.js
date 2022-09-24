@@ -22,7 +22,7 @@ function App() {
         <Route exact path='/blog/:id' element={<Blog />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/resources' element={<Resources />} />
-        <Route exact path='/resources/files' element={<Files />} />
+        <Route exact path='/files' element={<Files />} />
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/upload' element={<Upload />} />
         <Route path='*' element={<Empty />} />

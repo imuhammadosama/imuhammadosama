@@ -3,7 +3,7 @@ export default function () {
   return (
     <div className='hero'>
       <div className='hero-text'>
-        <div className='hero-description'>I Build Websites</div>
+        <div className='hero-description'>i build websites!</div>
         <div className='hero-title'>
           <div className='hero-title-one'>Your Vision</div>
           <div className='hero-title-two'>My Development</div>

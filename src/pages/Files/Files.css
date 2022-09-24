@@ -1,3 +1,7 @@
+.file-page {
+  margin-top: 4rem;
+}
+
 .file-cards {
   display: flex;
   justify-content: space-between;
