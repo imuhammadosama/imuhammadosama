@@ -4,9 +4,9 @@
 
 .about-subheader {
   font-size: 16px;
-  color: #1e1e1e;
   letter-spacing: -0.3px;
   text-align: center;
+  color: #1e1e1e;
 }
 
 .about-subheader-description {
@@ -18,4 +18,21 @@
 
 .about-subheader-subdescription {
   margin-top: 1rem;
+}
+
+.about-socials {
+  margin-top: 2rem;
+}
+
+.about-social-icon {
+  box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
+  padding: 18px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.about-social-icon:hover {
+  background-color: rgba(0, 16, 61, 0.04);
 }
