@@ -3,7 +3,13 @@ import './Portfolio.css';
 export default function (props) {
   return (
     <a className='portfolio-item' href={props.link} target='_blank'>
-      <img src={props.img} alt='' className='portfolio-img' />
+      <img
+        src={props.img}
+        alt=''
+        className='portfolio-img'
+        width='720'
+        height='1281'
+      />
       <div className='portfolio-link'>
         <svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'>
           <path
