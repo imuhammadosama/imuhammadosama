@@ -26,6 +26,152 @@ export default function () {
           </a>
         </div>
       </div>
+      <div className='about-experience'>
+        <div className='about-experience-title'>💼 Experience</div>
+        <div className='about-experience-details'>
+          <div className='about-experience-date'>Jan 2020 - Present</div>
+          <div className='about-experience-description'>
+            <div className='about-experience-description-title'>
+              Co-Founder, Solver’s Cave
+            </div>
+            <div className='about-experience-description-details'>
+              <ul className='about-experience-list'>
+                <li>
+                  As my freelancing career excelled, It was becoming difficult
+                  to work on multiple projects at same time.
+                </li>
+                <li>So, Co-Founded Solver’s Cave on Jan 2020.</li>
+                <li>Opened first office on May 2020.</li>
+                <li>Managed over 500+ Projects.</li>
+                <li>Help company raised from 0 employees to multiple.</li>
+                <li>Helped interns and employees learn new skills.</li>
+                <li>Opened second office on July 2022.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='about-experience-details'>
+          <div className='about-experience-date'>Jan 2018 - Present</div>
+          <div className='about-experience-description'>
+            <div className='about-experience-description-title'>
+              Freelance Web Designer, Fiverr / Upwork
+            </div>
+            <div className='about-experience-description-details'>
+              <ul className='about-experience-list'>
+                <li>Employement didn’t suit me, so I started freelancing.</li>
+                <li>Did my university final year project in MERN Stack.</li>
+                <li>
+                  Was able to land first order in first month of freelancing.
+                </li>
+                <li>Have designed over 500+ websites for my clients.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='about-experience-details'>
+          <div className='about-experience-date'>Apr 2017 - Jan 2018</div>
+          <div className='about-experience-description'>
+            <div className='about-experience-description-title'>
+              WordPress Designer, Morosoft
+            </div>
+            <div className='about-experience-description-details'>
+              <ul className='about-experience-list'>
+                <li>Hired as a non paid intern as a Graphic Designer.</li>
+                <li>
+                  Learn WordPress Designing while doing Graphic Design work.
+                </li>
+                <li>Promoted to Paid Employee.</li>
+                <li>
+                  Designed over 35+ Ecommerce, Business, Portfolio WordPress
+                  Websites.
+                </li>
+                <li>Was guided by university seniors.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='about-experience-details'>
+          <div className='about-experience-date'>Apr 2017 - June 2017</div>
+          <div className='about-experience-description'>
+            <div className='about-experience-description-title'>
+              Graphic Designer, AlphaKode
+            </div>
+            <div className='about-experience-description-details'>
+              <ul className='about-experience-list'>
+                <li>Hired as an Intern.</li>
+                <li>Learn Adobe Photoshop, Adobe Illustrator and Adobe XD.</li>
+                <li>
+                  Designed Social Media Posts, Banners, Flyers, Logo Designs.
+                </li>
+                <li>Was guided by university seniors.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='about-education'>
+        <div className='about-education-title'>🎓 Education</div>
+        <div className='about-education-details'>
+          <div className='about-education-date'>Sep 2016 – Sep 2020</div>
+          <div className='about-education-description'>
+            <div className='about-education-description-title'>
+              Bachelor’s in Software Engineering
+            </div>
+            <div className='about-education-description-details'>
+              Comsats University, Islamabad
+            </div>
+          </div>
+        </div>
+        <div className='about-education-details'>
+          <div className='about-education-date'>Apr 2010 - Apr 2015</div>
+          <div className='about-education-description'>
+            <div className='about-education-description-title'>
+              Pre-Engineering
+            </div>
+            <div className='about-education-description-details'>
+              Abbottabad Public School & College, Abbottabad
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='about-others'>
+        <div className='about-other'>
+          <div className='about-other-title'>💪 Skills</div>
+          <ul className='about-other-list'>
+            <li>Web design</li>
+            <li>Web development</li>
+            <li>UI design</li>
+            <li>User Experience design</li>
+            <li>Prototyping</li>
+            <li>Logo designing</li>
+            <li>Graphic designing</li>
+          </ul>
+        </div>
+        <div className='about-other'>
+          <div className='about-other-title'>🛠️ Tools</div>
+          <ul className='about-other-list'>
+            <li>Figma</li>
+            <li>VS Code</li>
+            <li>Adobe XD</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe After Effects</li>
+            <li>Adobe Premiere Pro</li>
+          </ul>
+        </div>
+        <div className='about-other'>
+          <div className='about-other-title'>👨🏻‍💻 Technologies</div>
+          <ul className='about-other-list'>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
