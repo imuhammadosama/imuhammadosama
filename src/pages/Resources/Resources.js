@@ -1,8 +1,6 @@
 import './Resources.css';
 import Files from '../Files/Files';
-import Videos from '../Videos/Videos';
 import { useState } from 'react';
-import Upload from '../Upload/Upload';
 
 export default function () {
   const [filter, setFilter] = useState('Files');
@@ -37,7 +35,7 @@ export default function () {
         {filter === 'Files' ? (
           <Files />
         ) : filter === 'Videos' ? (
-          <Videos />
+          <Files />
         ) : (
           <div></div>
         )}
