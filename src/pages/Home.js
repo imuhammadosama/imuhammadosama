@@ -8,6 +8,7 @@ import Hero from '../components/Hero/Hero';
 import Reviews from '../components/Reviews/Reviews';
 
 export default function Home() {
+  const [count, setCount] = useState(8);
   const [portfolioItems, setPortfolioItems] = useState(websites);
   const [selectedType, setSelectedType] = useState('All');
 
@@ -55,16 +56,32 @@ export default function Home() {
           })}
         </div>
         <div className='portfolio'>
-          {portfolioItems.map((item, index) => {
-            return (
-              <Portfolio
-                link={item.link}
-                img={item.img}
-                title={item.title}
-                key={index}
-              />
-            );
-          })}
+          {portfolioItems
+            .filter((portfolio, index) => {
+              return index < count;
+            })
+            .map((item, index) => {
+              return (
+                <Portfolio
+                  link={item.link}
+                  img={item.img}
+                  title={item.title}
+                  key={index}
+                />
+              );
+            })}
+        </div>
+        <div className='flex center'>
+          {count > portfolioItems.length || count === portfolioItems.length ? (
+            ''
+          ) : (
+            <button
+              className='secondary-button mt-16'
+              onClick={() => setCount(count + 4)}
+            >
+              Check More
+            </button>
+          )}
         </div>
       </div>
 
