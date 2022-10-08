@@ -9,7 +9,7 @@ export const websites = [
     title: 'Kryptloc',
     link: 'https://kryptloc.com',
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/h_1281,q_75,w_720/v1656773766/Portfolio/kryptloc_j7zdu9.webp',
-    type: 'Ecommerce',
+    type: 'Startup',
   },
   {
     title: 'Less Than',
