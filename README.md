@@ -1,9 +1,3 @@
-# Hey there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
-
-My name is Muhammad Osama and I'm a Website Designer & Developer. I'm a full time freelancer from Pakistan.
-
-## About me
-
 ✨ Creating bugs since 2018. <br>
 📚 I'm currently learning Typescript. <br>
 🎯 Goals: Do 1 year of consistent coding. <br>
