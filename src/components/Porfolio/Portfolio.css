@@ -17,7 +17,8 @@
     min-width: 100% !important;
   }
   .portfolio-link,
-  .portfolio-title {
+  .portfolio-title,
+  .portfolio-build {
     display: block !important;
   }
 
@@ -79,6 +80,28 @@
   right: 10px;
   animation: animation-link 0.15s ease-in-out;
   border-radius: 10px;
+}
+
+.portfolio-build {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background-color: black;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0px;
+  transition: 0.15s ease;
+  animation: animation-build 0.15s ease-in-out;
+}
+
+.portfolio-item:hover .portfolio-build {
+  display: block;
 }
 
 .portfolio-item:hover .portfolio-link {
@@ -162,6 +185,19 @@
 @media screen and (max-width: 768px) {
   .filters {
     margin-left: 20px;
+  }
+}
+
+@keyframes animation-build {
+  from {
+    top: 0px;
+    left: 0px;
+    opacity: 0%;
+  }
+  to {
+    top: 10px;
+    left: 10px;
+    opacity: 100%;
   }
 }
 

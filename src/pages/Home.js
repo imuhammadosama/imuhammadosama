@@ -67,6 +67,7 @@ export default function Home() {
                   img={item.img}
                   title={item.title}
                   key={index}
+                  build={item.build}
                 />
               );
             })}

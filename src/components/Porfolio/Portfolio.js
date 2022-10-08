@@ -20,6 +20,7 @@ export default function (props) {
           ></path>
         </svg>
       </div>
+      <div className='portfolio-build'>Build on {props.build}</div>
       <p className='portfolio-title'>{props.title}</p>
     </a>
   );
