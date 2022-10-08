@@ -7,11 +7,18 @@ export const websites = [
     build: 'WordPress',
   },
   {
-    title: 'Kryptloc',
-    link: 'https://kryptloc.com',
-    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/h_1281,q_75,w_720/v1656773766/Portfolio/kryptloc_j7zdu9.webp',
-    type: 'Startup',
-    build: 'WordPress',
+    title: 'Scroll Reddit',
+    link: 'https://scrollreddit.com',
+    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660651503/Portfolio/scrollreddit.com_c4isux.webp',
+    type: 'Custom',
+    build: 'ReactJS',
+  },
+  {
+    title: 'Dairy Farm Products',
+    link: 'https://www.figma.com/proto/GzzhtJELbdVPngzaSaTS5Y/Dairy-Farm-Products?node-id=218%3A2307&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=218%3A2307&hide-ui=1',
+    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660736078/Portfolio/dfp_bokqd8.webp',
+    type: 'UI/UX',
+    build: 'Figma',
   },
   {
     title: 'Less Than',
@@ -20,6 +27,14 @@ export const websites = [
     type: 'Ecommerce',
     build: 'WordPress',
   },
+  {
+    title: 'Kryptloc',
+    link: 'https://kryptloc.com',
+    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/h_1281,q_75,w_720/v1656773766/Portfolio/kryptloc_j7zdu9.webp',
+    type: 'Startup',
+    build: 'WordPress',
+  },
+
   {
     title: 'Melbourne Street Tours',
     link: 'https://melbournestreettours.com/',
@@ -41,13 +56,7 @@ export const websites = [
     type: 'Custom',
     build: 'ReactJS',
   },
-  {
-    title: 'Scroll Reddit',
-    link: 'https://scrollreddit.com',
-    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660651503/Portfolio/scrollreddit.com_c4isux.webp',
-    type: 'Custom',
-    build: 'ReactJS',
-  },
+
   {
     title: 'Tech Revive',
     link: 'https://techrevive.biz',
@@ -61,12 +70,5 @@ export const websites = [
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660735875/Portfolio/medicosurveillance_iyya3p.webp',
     type: 'Custom',
     build: 'ReactJS',
-  },
-  {
-    title: 'Dairy Farm Products',
-    link: 'https://www.figma.com/proto/GzzhtJELbdVPngzaSaTS5Y/Dairy-Farm-Products?node-id=218%3A2307&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=218%3A2307&hide-ui=1',
-    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660736078/Portfolio/dfp_bokqd8.webp',
-    type: 'UI/UX',
-    build: 'Figma',
   },
 ];
