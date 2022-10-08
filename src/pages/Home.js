@@ -8,7 +8,7 @@ import Hero from '../components/Hero/Hero';
 import Reviews from '../components/Reviews/Reviews';
 
 export default function Home() {
-  const [count, setCount] = useState(8);
+  const [count, setCount] = useState(4);
   const [portfolioItems, setPortfolioItems] = useState(websites);
   const [selectedType, setSelectedType] = useState('All');
 

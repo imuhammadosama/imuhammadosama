@@ -18,6 +18,12 @@ export const websites = [
     type: 'Ecommerce',
   },
   {
+    title: 'Melbourne Street Tours',
+    link: 'https://melbournestreettours.com/',
+    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1665239012/Portfolio/Melbourne_Street_Tours_udnlcq.webp',
+    type: 'Business',
+  },
+  {
     title: 'JuggernautPK',
     link: 'https://juggernautpk.com',
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/h_1281,q_75,w_720/v1656771979/Portfolio/juggernaut_zczfv5.webp',
