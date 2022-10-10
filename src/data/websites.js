@@ -8,7 +8,7 @@ export const websites = [
   },
   {
     title: 'Scroll Reddit',
-    link: 'https://scrollreddit.com',
+    link: 'https://reddit.imuhammadosama.com',
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660651503/Portfolio/scrollreddit.com_c4isux.webp',
     type: 'Custom',
     build: 'ReactJS',
@@ -51,7 +51,7 @@ export const websites = [
   },
   {
     title: 'IconsCave',
-    link: 'https://iconscave.com',
+    link: 'https://icons.imuhammadosama.com',
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660652168/Portfolio/iconscave_sys1rf.webp',
     type: 'Custom',
     build: 'ReactJS',
