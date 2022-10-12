@@ -82,11 +82,29 @@
   border-radius: 10px;
 }
 
-.portfolio-build {
+.portfolio-title {
   display: none;
   position: absolute;
   top: 10px;
   left: 10px;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0px;
+  transition: 0.15s ease;
+  animation: animation-title 0.15s ease-in-out;
+}
+
+.portfolio-build {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
   color: white;
   background-color: black;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
@@ -127,24 +145,6 @@
   fill: white;
 }
 
-.portfolio-title {
-  display: none;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: black;
-  background-color: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 8px;
-  padding: 6px 10px;
-  font-size: 11px;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0px;
-  transition: 0.15s ease;
-  animation: animation-title 0.15s ease-in-out;
-}
-
 .type {
   font-size: 15px;
   padding: 8px 16px;
@@ -161,10 +161,12 @@
 }
 
 .selected-type {
-  background-color: white;
+  /* background-color: white; */
+  background-color: #252525;
+  color: white;
   border-radius: 10px;
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-  box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
+  /* box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%); */
   font-size: 15px;
   padding: 8px 16px;
   border-radius: 10px;
@@ -188,7 +190,7 @@
   }
 }
 
-@keyframes animation-build {
+@keyframes animation-title {
   from {
     top: 0px;
     left: 0px;
@@ -214,15 +216,15 @@
   }
 }
 
-@keyframes animation-title {
+@keyframes animation-build {
   from {
     bottom: 0px;
-    left: 0px;
+    left: 25%;
     opacity: 0%;
   }
   to {
     bottom: 10px;
-    left: 10px;
+    left: 25%;
     opacity: 100%;
   }
 }
