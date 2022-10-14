@@ -53,6 +53,5 @@
 }
 
 .hero-button:hover {
-  color: white;
-  background-color: #000;
+  background-color: rgba(0, 16, 61, 0.04);
 }

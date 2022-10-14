@@ -153,21 +153,19 @@
   cursor: pointer;
   margin-right: 8px;
   margin-bottom: 8px;
-  transition: 0.3s;
 }
 .type:active {
   background-color: none;
 }
 .type:hover {
   color: #000;
-  background-color: rgba(0, 16, 61, 0.04);
 }
 
 .selected-type {
   /* background-color: white; */
   /* background-color: #252525; */
   color: #fff;
-  background-color: #000;
+  background-color: #252525;
   /* color: white; */
   border-radius: 10px;
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */

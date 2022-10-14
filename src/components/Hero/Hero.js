@@ -10,7 +10,7 @@ export default function () {
         </div>
         <a className='hero-button' href='mailto:imuhammadosama@icloud.com'>
           <span>Email Me</span>
-          {/* <span style={{ height: '18px', paddingLeft: '8px' }}>
+          <span style={{ height: '18px', paddingLeft: '8px' }}>
             <svg
               width='18'
               height='17'
@@ -37,7 +37,7 @@ export default function () {
                 stroke-linejoin='round'
               ></path>
             </svg>
-          </span> */}
+          </span>
         </a>
       </div>
     </div>
