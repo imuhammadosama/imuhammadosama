@@ -166,7 +166,8 @@
 .selected-type {
   /* background-color: white; */
   /* background-color: #252525; */
-  background-color: rgb(244 244 245);
+  color: #fff;
+  background-color: #000;
   /* color: white; */
   border-radius: 10px;
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */

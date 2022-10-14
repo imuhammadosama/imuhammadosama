@@ -64,14 +64,20 @@ body {
 
 .secondary-button {
   font-family: 'Sora';
-  background-color: #333;
-  color: white;
+  background-color: rgba(0, 16, 61, 0.04);
+  color: #000;
   padding: 8px 16px;
   border-radius: 10px;
   border: none;
   cursor: pointer;
   font-size: 15px;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.secondary-button:hover {
+  color: white;
+  background-color: black;
 }
 
 textarea:-internal-autofill-selected {
