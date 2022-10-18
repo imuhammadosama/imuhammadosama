@@ -9,7 +9,10 @@ html {
 }
 
 body {
-  background-image: linear-gradient(270deg, #ffffff, #eeeeee);
+  /* background-image: linear-gradient(270deg, #ffffff, #eeeeee); */
+  background-image: url(http://res.cloudinary.com/dvwpbbisf/image/upload/v1666079479/cprbk8ti57eeiebbaubx.webp);
+  background-position: 0 0;
+  background-size: auto;
   box-sizing: border-box;
   font-family: 'Sora';
   max-width: 1200px;
