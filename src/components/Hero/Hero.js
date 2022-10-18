@@ -3,10 +3,9 @@ export default function () {
   return (
     <div className='hero'>
       <div className='hero-text'>
-        <div className='hero-description'>i build websites!</div>
+        <div className='hero-description'>Fast • Modern • Optimized </div>
         <div className='hero-title'>
-          <div className='hero-title-one'>Your Vision</div>
-          <div className='hero-title-two'>My Development</div>
+          <div className='hero-title-one'>Get your website built!</div>
         </div>
         <a className='hero-button' href='mailto:imuhammadosama@icloud.com'>
           <span>Email Me</span>
