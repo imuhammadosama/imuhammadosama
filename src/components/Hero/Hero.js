@@ -3,9 +3,9 @@ export default function () {
   return (
     <div className='hero'>
       <div className='hero-text'>
-        <div className='hero-description'>Fast • Modern • Optimized </div>
+        <div className='hero-description'>Fast • Modern • Optimized</div>
         <div className='hero-title'>
-          <div className='hero-title-one'>Get your website built!</div>
+          <div className='hero-title-one'>Website that works!</div>
         </div>
         <a className='button' href='mailto:imuhammadosama@icloud.com'>
           <span>Email Me</span>
