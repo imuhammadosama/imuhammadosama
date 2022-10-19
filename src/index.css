@@ -5,11 +5,10 @@ html {
 }
 
 :root {
-  --primary: #1e1e1e;
+  --primary: #1a1d21;
 }
 
 body {
-  /* background-image: linear-gradient(270deg, #ffffff, #eeeeee); */
   background-image: url(http://res.cloudinary.com/dvwpbbisf/image/upload/v1666079479/cprbk8ti57eeiebbaubx.webp);
   background-position: 0 0;
   background-size: auto;
@@ -63,21 +62,53 @@ body {
   margin-top: 16px;
 }
 
-.secondary-button {
-  font-family: 'Sora';
-  background-color: white;
-  box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
-  color: #000;
-  padding: 8px 16px;
+.button {
+  width: fit-content;
+  float: right;
+  font-size: 15px;
+  color: #1e1e1e;
   border-radius: 10px;
   border: none;
-  cursor: pointer;
-  font-size: 15px;
+  font-family: 'Sora';
+  letter-spacing: -0.2px;
+  transition: background-color 0.1s ease-in;
+  box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
   text-decoration: none;
+  padding: 8px 16px;
+  transition: 0.1s ease-in;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 4px;
 }
 
-.secondary-button:hover {
-  background-color: rgba(0, 16, 61, 0.04);
+.button:hover {
+  color: white;
+  background-color: #1e1e1e;
+}
+
+.secondary-button {
+  width: fit-content;
+  float: right;
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Sora';
+  letter-spacing: -0.2px;
+  transition: background-color 0.1s ease-in;
+  box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: 0.1s ease-in;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 4px;
 }
 
 textarea:-internal-autofill-selected {

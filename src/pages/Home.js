@@ -77,7 +77,7 @@ export default function Home() {
             ''
           ) : (
             <button
-              className='secondary-button mt-16'
+              className='button mt-16'
               onClick={() => setCount(count + 4)}
             >
               Check More

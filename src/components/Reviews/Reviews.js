@@ -120,10 +120,7 @@ export default function Reviews() {
         {count > reviews.length || count === reviews.length ? (
           ''
         ) : (
-          <button
-            className='secondary-button mt-16'
-            onClick={() => setCount(count + 3)}
-          >
+          <button className='button mt-16' onClick={() => setCount(count + 3)}>
             Check More
           </button>
         )}
