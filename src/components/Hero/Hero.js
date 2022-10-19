@@ -5,7 +5,10 @@ export default function () {
       <div className='hero-text'>
         <div className='hero-description'>Fast • Modern • Optimized</div>
         <div className='hero-title'>
-          <div className='hero-title-one'>Website that works!</div>
+          <div className='hero-title-one'>
+            You want,
+            <br />I build.
+          </div>
         </div>
         <a className='button' href='mailto:imuhammadosama@icloud.com'>
           <span>Email Me</span>

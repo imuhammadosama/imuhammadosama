@@ -39,7 +39,6 @@
   max-width: 276px !important;
   flex: 20%;
   border-radius: 10px;
-  height: 276px;
 }
 
 .portfolio-item::after {
