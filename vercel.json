@@ -2,7 +2,12 @@
   "redirects": [
     {
       "source": "/zoom",
-      "destination": "https://github.com",
+      "destination": "https://us05web.zoom.us/j/8640102017?pwd=TkZLeU1MY2d5eUpqeTJ5WUJTRHlVUT09",
+      "permanent": true
+    },
+    {
+      "source": "/meet",
+      "destination": "https://meet.google.com/thh-ihdi-zpd",
       "permanent": true
     }
   ]
