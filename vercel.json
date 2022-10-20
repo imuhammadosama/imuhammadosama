@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/zoom",
+      "destination": "https://github.com",
+      "permanent": true
+    }
+  ]
+}
