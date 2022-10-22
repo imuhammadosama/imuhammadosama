@@ -16,7 +16,7 @@
       "permanent": true
     },
     {
-      "source": "/whatsapp",
+      "source": "/wcall",
       "destination": "https://call.whatsapp.com/video/29AK0A2bPU8g8bZ4PEjScM",
       "permanent": true
     }
