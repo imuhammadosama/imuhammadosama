@@ -9,6 +9,16 @@
       "source": "/meet",
       "destination": "https://meet.google.com/thh-ihdi-zpd",
       "permanent": true
+    },
+    {
+      "source": "/wame",
+      "destination": "https://wa.me/+923352522522",
+      "permanent": true
+    },
+    {
+      "source": "/whatsapp",
+      "destination": "https://call.whatsapp.com/video/29AK0A2bPU8g8bZ4PEjScM",
+      "permanent": true
     }
   ]
 }
