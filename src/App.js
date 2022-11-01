@@ -1,14 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+
+import Empty from './pages/Empty/Empty';
+import Home from './pages/Home';
+import About from './pages/About/About';
+import Resources from './pages/Resources/Resources';
+import Files from './pages/Files/Files';
+import Contact from './pages/Contact/Contact';
+import Upload from './pages/Upload/Upload';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>I am updating my portfolio. Stay tuned!</p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/about' element={<About />} />
+        <Route exact path='/resources' element={<Resources />} />
+        <Route exact path='/files' element={<Files />} />
+        <Route exact path='/contact' element={<Contact />} />
+        <Route exact path='/upload' element={<Upload />} />
+        <Route path='*' element={<Empty />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
