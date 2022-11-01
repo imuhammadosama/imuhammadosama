@@ -10,43 +10,32 @@ export default function () {
             <br />I build.
           </div>
         </div>
-        <a className='button' href='mailto:imuhammadosama@icloud.com'>
+        <a
+          className='button email-button'
+          href='mailto:imuhammadosama@icloud.com'
+        >
           <span>Email Me</span>
-          <span style={{ height: '18px', paddingLeft: '8px' }}>
+          <span style={{ height: '18px', paddingLeft: '4px' }}>
             <svg
               width='18'
               height='17'
               viewBox='0 0 18 17'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
+              className='send-icon'
             >
-              <path
-                d='M13.702 5.02344L10.1531 7.88077C9.48148 8.40732 8.54001 8.40732 7.8684 7.88077L4.28906 5.02344'
-                stroke='white'
-                stroke-width='1.5'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-              />
-              <path
-                d='M17.25 5.17262L15.3155 6.23661L13.381 8.0744V14.381H16.0893C16.7304 14.381 17.25 13.8613 17.25 13.2202V5.17262Z'
-                fill='#4CAF50'
-              />
-              <path
-                d='M1 5.17262L2.39827 5.83423L4.86905 8.0744V14.381H2.16071C1.51961 14.381 1 13.8613 1 13.2202V5.17262Z'
-                fill='#1E88E5'
-              />
-              <path
-                d='M13.381 3.2381L9.125 6.43006L4.86905 3.2381L4.48214 5.48214L4.86905 8.07441L9.125 11.2664L13.381 8.07441L13.7679 5.48214L13.381 3.2381Z'
-                fill='#E53935'
-              />
-              <path
-                d='M1 3.66292V5.17262L4.86905 8.07441V3.2381L3.66036 2.33235C3.3725 2.11646 3.02274 2 2.66292 2C1.7444 2 1 2.7444 1 3.66292Z'
-                fill='#C62828'
-              />
-              <path
-                d='M17.25 3.66292V5.17262L13.381 8.07441V3.2381L14.5896 2.33235C14.8775 2.11646 15.2273 2 15.5871 2C16.5056 2 17.25 2.7444 17.25 3.66292Z'
-                fill='#FBC02D'
-              />
+              <g clip-path='url(#clip0_0_3)'>
+                <path
+                  d='M7.64577 11.2187L10.3607 7.20436C10.6032 6.84599 10.5089 6.75169 10.1505 6.99418L6.13622 9.70914C5.89718 9.87092 5.51339 9.8775 5.28008 9.72421L1.35887 7.14893C1.00845 6.9189 1.05077 6.6069 1.45328 6.45251L16.2953 0.759965C16.5634 0.657158 16.6978 0.79148 16.5949 1.05958L10.9024 15.9016C10.748 16.3041 10.436 16.3465 10.206 15.996L7.6307 12.0748C7.47741 11.8415 7.48398 11.4577 7.64577 11.2187Z'
+                  fill='#333333'
+                  id='send-icon'
+                />
+              </g>
+              <defs>
+                <clipPath id='clip0_0_3'>
+                  <rect width='18' height='17' fill='white' />
+                </clipPath>
+              </defs>
             </svg>
           </span>
         </a>

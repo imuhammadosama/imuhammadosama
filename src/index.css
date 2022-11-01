@@ -9,14 +9,13 @@ html {
 }
 
 body {
-  background-image: url(http://res.cloudinary.com/dvwpbbisf/image/upload/v1666079479/cprbk8ti57eeiebbaubx.webp);
+  background-color: #f5f5f560;
   background-position: 0 0;
   background-size: auto;
   box-sizing: border-box;
   font-family: 'Sora';
   max-width: 1200px;
   margin: auto;
-  background-color: var(--background);
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
 }
@@ -85,8 +84,7 @@ body {
 }
 
 .button:hover {
-  color: white;
-  background-color: #1e1e1e;
+  background-color: transparent;
 }
 
 .secondary-button {

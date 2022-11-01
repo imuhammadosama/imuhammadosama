@@ -25,6 +25,20 @@
 }
 .back-to-top > svg:hover .arrow {
   fill: white;
+  transform: translateY(-2px);
+  animation: backToTop 1s infinite;
+}
+
+@keyframes backToTop {
+  0% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(-2px);
+  }
 }
 
 .hide {

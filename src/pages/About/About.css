@@ -161,7 +161,3 @@
   justify-content: center;
   margin-top: 2rem;
 }
-
-.button:hover #download-icon {
-  fill: white;
-}

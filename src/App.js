@@ -8,7 +8,6 @@ import About from './pages/About/About';
 import Resources from './pages/Resources/Resources';
 import Files from './pages/Files/Files';
 import Contact from './pages/Contact/Contact';
-import Upload from './pages/Upload/Upload';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route exact path='/resources' element={<Resources />} />
         <Route exact path='/files' element={<Files />} />
         <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/upload' element={<Upload />} />
         <Route path='*' element={<Empty />} />
       </Routes>
       <Footer />
