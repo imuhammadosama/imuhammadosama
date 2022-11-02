@@ -3,11 +3,12 @@ export default function () {
   return (
     <div className='hero'>
       <div className='hero-text'>
-        <div className='hero-description'>Professional Website Designer</div>
+        <div className='hero-description'>Hello, I'm Osama,</div>
         <div className='hero-title'>
           <div className='hero-title-one'>
-            You want,
-            <br />I build.
+            Website Developer with
+            <br />
+            Designing Skills.
           </div>
         </div>
         <a

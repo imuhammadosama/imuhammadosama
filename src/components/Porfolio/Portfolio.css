@@ -39,6 +39,7 @@
   max-width: 276px !important;
   flex: 20%;
   border-radius: 10px;
+  transition: box-shadow 350ms, transform 350ms, -webkit-transform 350ms;
 }
 
 .portfolio-item::after {
@@ -53,7 +54,7 @@
 }
 
 .portfolio-item:hover {
-  box-shadow: 0 16px 32px 0 rgb(0 0 0 / 11%);
+  /* box-shadow: 0 16px 32px 0 rgb(0 0 0 / 11%); */
   transform: translate(0, -8px);
 }
 
@@ -85,7 +86,7 @@
 .portfolio-title {
   display: none;
   position: absolute;
-  top: 10px;
+  bottom: 10px;
   left: 10px;
   color: black;
   background-color: white;
@@ -103,8 +104,8 @@
 .portfolio-build {
   display: none;
   position: absolute;
-  bottom: 10px;
-  left: 25%;
+  top: 10px;
+  left: 10px;
   color: white;
   background-color: black;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
@@ -188,12 +189,12 @@
 
 @keyframes animation-title {
   from {
-    top: 0px;
+    bottom: 0px;
     left: 0px;
     opacity: 0%;
   }
   to {
-    top: 10px;
+    bottom: 10px;
     left: 10px;
     opacity: 100%;
   }
@@ -214,13 +215,13 @@
 
 @keyframes animation-build {
   from {
-    bottom: 0px;
-    left: 25%;
+    top: 0px;
+    left: 0px;
     opacity: 0%;
   }
   to {
-    bottom: 10px;
-    left: 25%;
+    top: 10px;
+    left: 10px;
     opacity: 100%;
   }
 }
