@@ -37,20 +37,24 @@
   width: fit-content;
   float: right;
   font-size: 15px;
-  color: #1e1e1e;
+  color: white;
   border-radius: 10px;
   border: none;
   font-family: 'Sora';
   letter-spacing: -0.2px;
   box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
   text-decoration: none;
-  padding: 12px 24px;
-  background-color: white;
+  padding: 12px 20px;
+  background-color: #1e1e1e;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   margin-top: 4px;
+}
+
+.contact-form-submit:hover .send-icon {
+  animation: sendAnimation 0.35s forwards ease-out;
 }
 
 .contact-form-submit:hover {
@@ -175,6 +179,18 @@
 .contact-detail-description {
   font-size: 24px;
   font-weight: 600;
+  cursor: pointer;
+}
+.contact-detail-description:hover {
+  background: -webkit-linear-gradient(
+    302deg,
+    #ff9447,
+    #ff64c1 29%,
+    #925eff 68%,
+    #1a1eff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contact-message {

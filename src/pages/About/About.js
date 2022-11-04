@@ -27,7 +27,7 @@ export default function () {
         </div> */}
         <div className='about-download-resume'>
           <a
-            className='button'
+            className='button resume-button'
             href='https://drive.google.com/uc?export=download&id=1vGEqBjFlSta9tktaq3vp8o7nt1Usjxh5
 '
           >
@@ -42,7 +42,7 @@ export default function () {
               >
                 <path
                   d='M8.019 10.811L8.01976 1.41396H5.82971L5.83049 10.8095L2.54773 7.52675L1 9.07448L6.92551 15L12.8503 9.07526L11.3025 7.52752L8.019 10.811Z'
-                  fill='#1E1E1E'
+                  fill='#fff'
                   id='download-icon'
                 />
               </svg>

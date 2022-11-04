@@ -50,7 +50,7 @@ export default function () {
         <div className='contact-subtitle'>Muhammad Osama</div>
       </div>
       <div className='contact-content'>
-        <form className='contact-form' ref={form} onSubmit={sendEmail}>
+        <form className='contact-form' ref={form}>
           <div className='contact-fields'>
             <div className='contact-form-left-inputs'>
               <input
@@ -88,11 +88,33 @@ export default function () {
                 value='Sending...'
               />
             ) : (
-              <input
-                type='submit'
-                className='contact-form-submit'
-                value='Send'
-              />
+              <button
+                className='button contact-form-submit'
+                onClick={sendEmail}
+              >
+                Send &nbsp;
+                <svg
+                  width='18'
+                  height='17'
+                  viewBox='0 0 18 17'
+                  fill='none'
+                  xmlns='http://www.w3.org/2000/svg'
+                  className='send-icon'
+                >
+                  <g clip-path='url(#clip0_0_3)'>
+                    <path
+                      d='M7.64577 11.2187L10.3607 7.20436C10.6032 6.84599 10.5089 6.75169 10.1505 6.99418L6.13622 9.70914C5.89718 9.87092 5.51339 9.8775 5.28008 9.72421L1.35887 7.14893C1.00845 6.9189 1.05077 6.6069 1.45328 6.45251L16.2953 0.759965C16.5634 0.657158 16.6978 0.79148 16.5949 1.05958L10.9024 15.9016C10.748 16.3041 10.436 16.3465 10.206 15.996L7.6307 12.0748C7.47741 11.8415 7.48398 11.4577 7.64577 11.2187Z'
+                      fill='#fff'
+                      id='send-icon'
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id='clip0_0_3'>
+                      <rect width='18' height='17' fill='white' />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
             )}
           </div>
         </form>
