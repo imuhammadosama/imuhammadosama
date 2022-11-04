@@ -53,6 +53,9 @@
     margin-left: 20px;
     padding: 60px 0px;
   }
+  .hero-title {
+    font-size: 24px !important;
+  }
 }
 
 .hero-text {

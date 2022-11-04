@@ -37,17 +37,7 @@
   flex: 20%;
   border-radius: 10px;
   transition: box-shadow 350ms, transform 350ms, -webkit-transform 350ms;
-}
-
-.portfolio-item::after {
-  box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  border-radius: 10px;
+  border: 1px solid #e0e0e0;
 }
 
 .portfolio-item:hover {
@@ -119,12 +109,14 @@
   border-radius: 10px;
 }
 
-.portfolio-link:hover {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
 .portfolio-link > svg:hover {
-  background-color: var(--primary);
+  background-image: linear-gradient(
+    302deg,
+    #ff9447,
+    #ff64c1 29%,
+    #925eff 68%,
+    #1a1eff
+  );
 }
 .portfolio-link > svg:hover .arrow {
   fill: white;

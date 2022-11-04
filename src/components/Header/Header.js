@@ -15,6 +15,7 @@ export default function () {
             viewBox='0 0 62 32'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
+            id='favicon'
           >
             <rect width='62' height='32' rx='16' fill='#333333' />
             <rect
