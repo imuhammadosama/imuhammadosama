@@ -42,11 +42,9 @@
   border: none;
   font-family: 'Sora';
   letter-spacing: -0.2px;
-  transition: background-color 0.1s ease-in;
   box-shadow: inset 0 0 0 1px rgb(0 16 61 / 12%);
   text-decoration: none;
   padding: 12px 24px;
-  transition: 0.1s ease-in;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -56,6 +54,14 @@
 }
 
 .contact-form-submit:hover {
+  color: white;
+  background-image: linear-gradient(
+    302deg,
+    #ff9447,
+    #ff64c1 29%,
+    #925eff 68%,
+    #1a1eff
+  );
   background-color: transparent;
 }
 
@@ -185,6 +191,13 @@
   visibility: hidden;
   margin-left: -125px;
   background-color: #333;
+  background-image: linear-gradient(
+    302deg,
+    #ff9447,
+    #ff64c1 29%,
+    #925eff 68%,
+    #1a1eff
+  );
   color: #fdf8f5;
   text-align: center;
   border-radius: 2px;
