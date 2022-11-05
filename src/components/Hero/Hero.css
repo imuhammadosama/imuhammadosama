@@ -19,19 +19,9 @@
 }
 
 .email-button {
-  background: #333333;
+  background-color: #333;
   color: white;
-}
-
-.email-button:hover {
-  background-image: linear-gradient(
-    302deg,
-    #ff9447,
-    #ff64c1 29%,
-    #925eff 68%,
-    #1a1eff
-  );
-  color: white;
+  box-shadow: none;
 }
 
 .email-button:hover .send-icon {

@@ -136,59 +136,17 @@
 }
 .type:hover {
   color: #000;
-  background: -webkit-linear-gradient(
-    302deg,
-    #ff9447,
-    #ff64c1 29%,
-    #925eff 68%,
-    #1a1eff
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .selected-type {
-  background: -webkit-linear-gradient(
-    302deg,
-    #ff9447,
-    #ff64c1 29%,
-    #925eff 68%,
-    #1a1eff
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #6e6d7a;
+  color: #000;
   font-size: 15px;
   padding: 8px 16px;
   cursor: pointer;
   margin-right: 8px;
   margin-bottom: 8px;
-  border-radius: 10px;
   box-shadow: inset;
-}
-
-.build {
-  color: #6e6d7a;
-  font-size: 15px;
-  border-radius: 10px;
-  cursor: pointer;
-  filter: grayscale(100%);
-  margin-right: 32px;
-}
-
-.build:last-child {
-  margin-right: 0px;
-}
-
-.build:active {
-  background-color: none;
-}
-.build:hover {
-  filter: grayscale(0%);
-}
-
-.selected-build {
-  filter: grayscale(0%);
+  border-bottom: 2px solid black;
 }
 
 .filters {
