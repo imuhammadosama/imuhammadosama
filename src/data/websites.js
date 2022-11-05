@@ -7,32 +7,25 @@ export const websites = [
     build: 'WordPress',
   },
   {
-    title: 'Scroll Reddit',
-    link: 'https://reddit.imuhammadosama.com',
-    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660651503/Portfolio/scrollreddit.com_c4isux.webp',
-    type: 'Custom',
-    build: 'ReactJS',
-  },
-  {
-    title: 'Dairy Farm Products',
-    link: 'https://www.figma.com/proto/GzzhtJELbdVPngzaSaTS5Y/Dairy-Farm-Products?node-id=218%3A2307&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=218%3A2307&hide-ui=1',
-    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660736078/Portfolio/dfp_bokqd8.webp',
-    type: 'UI/UX',
-    build: 'Figma',
-  },
-  {
-    title: 'Less Than',
-    link: 'https://golessthan.com',
-    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/h_1281,q_75,w_720/v1656771791/Portfolio/golessthan.com_1_ttbbmm.webp',
-    type: 'Ecommerce',
-    build: 'WordPress',
-  },
-  {
     title: 'Kryptloc',
     link: 'https://kryptloc.com',
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/h_1281,q_75,w_720/v1656773766/Portfolio/kryptloc_j7zdu9.webp',
     type: 'Startup',
     build: 'WordPress',
+  },
+  {
+    title: 'ROUTD',
+    link: 'https://www.rout-d.com',
+    img: 'http://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1667642842/iya2wffjcyqgrc6mrtr1.webp',
+    type: 'Mobile App',
+    build: 'WordPress',
+  },
+  {
+    title: 'Dairy Farm Products',
+    link: 'https://www.figma.com/proto/GzzhtJELbdVPngzaSaTS5Y/Dairy-Farm-Products?node-id=218%3A2307&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=218%3A2307&hide-ui=1',
+    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660736078/Portfolio/dfp_bokqd8.webp',
+    type: 'Business',
+    build: 'Figma',
   },
 
   {
@@ -49,13 +42,6 @@ export const websites = [
     type: 'Startup',
     build: 'WordPress',
   },
-  {
-    title: 'IconsCave',
-    link: 'https://icons.imuhammadosama.com',
-    img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660652168/Portfolio/iconscave_sys1rf.webp',
-    type: 'Custom',
-    build: 'ReactJS',
-  },
 
   {
     title: 'Tech Revive',
@@ -68,7 +54,7 @@ export const websites = [
     title: 'Medicosurveillance',
     link: 'https://www.medicosurveillance.com.au/',
     img: 'https://res.cloudinary.com/imuhammadosama/image/upload/q_auto:eco/v1660735875/Portfolio/medicosurveillance_iyya3p.webp',
-    type: 'Custom',
+    type: 'Business',
     build: 'ReactJS',
   },
 ];
