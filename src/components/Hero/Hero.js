@@ -6,10 +6,9 @@ export default function () {
         <div className='hero-description'>Hello, I'm Osama,</div>
         <div className='hero-title'>
           <div className='hero-title-one'>
-            <span className='hero-title-one-colored'>Website Developer</span>{' '}
-            with
+            <span className='hero-title-one-colored'>Building websites</span> at
             <br />
-            Designing Skills.
+            afforable price.
           </div>
         </div>
         <a
