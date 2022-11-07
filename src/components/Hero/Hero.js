@@ -40,6 +40,12 @@ export default function () {
             </svg>
           </span>
         </a>
+        <div className='hero-image-section'>
+          <img
+            src='http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1667822275/qvyyxr3cybilgqo0law5.webp'
+            className='hero-image'
+          />
+        </div>
       </div>
     </div>
   );
