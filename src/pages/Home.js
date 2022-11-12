@@ -39,6 +39,12 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <div className='reviews-section'>
+        <div className='reviews-section-title'>Projects</div>
+        <div className='reviews-section-description'>
+          Here's some of my latest projects.
+        </div>
+      </div>
       <div>
         <div className='filters'>
           {types.map((type, index) => {

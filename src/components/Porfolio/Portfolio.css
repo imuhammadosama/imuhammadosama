@@ -1,32 +1,30 @@
-@media screen and (max-width: 992px) {
-  .portfolio-item {
-    margin-right: 0px;
-    flex: 0 0 610px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .portfolio {
-    flex-direction: column;
-    padding: 20px;
-  }
-  .portfolio-item {
-    margin-right: 0px !important;
-    margin-left: 0px !important;
-    min-width: 100% !important;
-  }
-  .portfolio-link,
-  .portfolio-title,
-  .portfolio-img {
-    display: block;
-  }
-}
-
 .portfolio {
   display: flex;
   flex-wrap: wrap;
 }
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.portfolio-date {
+  color: #71717a;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: 0.375rem;
+  margin-bottom: 1.375rem;
+}
+
 .portfolio-item {
+  display: block;
   position: relative;
   cursor: pointer;
   transition: 0.15s ease;
@@ -35,19 +33,11 @@
   margin-bottom: 20px;
   max-width: 276px !important;
   flex: 20%;
-  border-radius: 10px;
+  border-radius: 0.75rem;
   transition: box-shadow 350ms, transform 350ms, -webkit-transform 350ms;
-  border: 1px solid #e0e0e0;
-}
-
-.portfolio-item:hover {
-  /* box-shadow: 0 16px 32px 0 rgb(0 0 0 / 11%); */
-  transform: translate(0, -6px);
-  box-shadow: 0 16px 32px 0 rgb(0 0 0 / 11%);
-}
-
-.portfolio-item:hover .portfolio-title {
-  display: block;
+  border: 1px solid #e4e4e7;
+  z-index: 9;
+  overflow: hidden;
 }
 
 .portfolio-img {
@@ -56,6 +46,7 @@
   border-radius: 10px;
   object-fit: cover;
   object-position: top;
+  transition: 0.3s;
 }
 
 .last-item {
@@ -63,63 +54,39 @@
 }
 
 .portfolio-link {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 10px;
-  right: 10px;
-  animation: animation-link 0.15s ease-in-out;
-  border-radius: 10px;
-}
-
-.portfolio-title {
-  display: none;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: #333333;
-  background-image: linear-gradient(
-    302deg,
-    #ff9447,
-    #ff64c1 29%,
-    #925eff 68%,
-    #1a1eff
-  );
-  color: white;
+  border-radius: 9999px;
   background-color: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 8px;
-  padding: 6px 10px;
-  font-size: 11px;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0px;
-  transition: 0.15s ease;
-  animation: animation-title 0.15s ease-in-out;
+  border: 1px solid #e4e4e7;
+  padding: 0.375rem 0.75rem;
+  right: 10px;
+  top: 10px;
+  width: fit-content;
+  margin: auto;
+  transition: 0.3s;
 }
 
-.portfolio-item:hover .portfolio-link {
+.portfolio-type {
+  display: none;
+  color: #18181b;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.portfolio-item:hover .arrow {
+  fill: #18181b;
+}
+
+.portfolio-link:hover .portfolio-type {
   display: block;
 }
 
-.portfolio-link > svg {
-  background-color: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 6px;
-  transition: 0.15s ease;
-  border-radius: 10px;
-}
-
-.portfolio-link > svg:hover {
-  background-image: linear-gradient(
-    302deg,
-    #ff9447,
-    #ff64c1 29%,
-    #925eff 68%,
-    #1a1eff
-  );
-}
-.portfolio-link > svg:hover .arrow {
-  fill: white;
+.portfolio-item:hover .portfolio-img {
+  scale: 1.1;
 }
 
 .type {
@@ -163,33 +130,21 @@
   }
 }
 
-@keyframes animation-title {
-  from {
-    bottom: 0px;
-    left: 0px;
-    opacity: 0%;
-  }
-  to {
-    bottom: 10px;
-    left: 10px;
-    opacity: 100%;
+@media screen and (max-width: 992px) {
+  .portfolio-item {
+    margin-right: 0px;
+    flex: 0 0 610px;
   }
 }
 
-@keyframes animation-link {
-  from {
-    top: 0px;
-    right: 0px;
-    opacity: 0%;
+@media screen and (max-width: 768px) {
+  .portfolio {
+    flex-direction: column;
+    padding: 20px;
   }
-  to {
-    top: 10px;
-    right: 10px;
-    opacity: 100%;
+  .portfolio-item {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    min-width: 100% !important;
   }
-}
-
-::selection {
-  color: white;
-  background-color: #333;
 }
