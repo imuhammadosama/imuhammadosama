@@ -16,10 +16,8 @@ export default function () {
           href='mailto:imuhammadosama@icloud.com'
         >
           <span>Email Me</span>
-          <span style={{ height: '18px', paddingLeft: '4px' }}>
+          <span className='email-send-button'>
             <svg
-              width='18'
-              height='17'
               viewBox='0 0 18 17'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -42,7 +40,7 @@ export default function () {
         </a>
         <div className='hero-image-section'>
           <img
-            src='http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1667822275/qvyyxr3cybilgqo0law5.webp'
+            src='http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1668251061/vlgc8dtm5hrtx8on7vsy.webp'
             className='hero-image'
           />
         </div>

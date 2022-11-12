@@ -22,10 +22,21 @@
   background-color: #333;
   color: white;
   box-shadow: none;
+  font-size: 24px;
 }
 
 .email-button:hover .send-icon {
   animation: sendAnimation 0.35s forwards ease-out;
+}
+
+.email-send-button {
+  height: 24px;
+  padding-left: 4px;
+}
+
+.send-icon {
+  width: 24px;
+  height: 24px;
 }
 
 @keyframes sendAnimation {
@@ -38,16 +49,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .hero {
-    margin-left: 20px;
-    padding: 60px 0px;
-  }
-  .hero-title {
-    font-size: 24px !important;
-  }
-}
-
 .hero-text {
   text-align: center;
   display: flex;
@@ -57,10 +58,10 @@
 }
 
 .hero-title {
-  font-size: 32px;
+  font-size: 4.5rem;
   font-weight: bold;
   padding-bottom: 32px;
-  line-height: 1.5em;
+  line-height: 1.1;
 }
 
 .hero-description {
@@ -80,12 +81,30 @@
   animation: heroRotate 3s ease-in-out forwards;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
+  .hero {
+    margin-left: 20px;
+    padding: 60px 0px;
+  }
+  .hero-title {
+    font-size: 32px !important;
+  }
   .hero-image {
     width: 100%;
   }
   .hero-image-section {
     margin-right: 20px;
+  }
+  .send-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .email-button {
+    font-size: 16px;
+  }
+  .email-send-button {
+    height: 17px;
+    padding-left: 4px;
   }
 }
 
