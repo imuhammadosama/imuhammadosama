@@ -9,7 +9,7 @@ export default function Reviews() {
       <div className='reviews-section'>
         <div className='reviews-section-title'>Reviews</div>
         <div className='reviews-section-description'>
-          Don't take my words for it - Take theirs.
+          Original reviews from clients via Fiverr.
         </div>
       </div>
       <div className='reviews'>
