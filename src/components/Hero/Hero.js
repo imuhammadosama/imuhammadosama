@@ -38,12 +38,12 @@ export default function () {
             </svg>
           </span>
         </a>
-        {/* <div className='hero-image-section'>
+        <div className='hero-image-section'>
           <img
             src='http://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1668251061/vlgc8dtm5hrtx8on7vsy.webp'
             className='hero-image'
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
