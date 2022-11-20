@@ -28,7 +28,7 @@ export default function (props) {
         </div>
       </a>
       <div className='portfolio-title'>{props.title}</div>
-      <div className='portfolio-date'>October 27, 2022</div>
+      <div className='portfolio-date'>{props.date}</div>
     </div>
   );
 }

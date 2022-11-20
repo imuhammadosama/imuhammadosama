@@ -40,56 +40,59 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className='reviews-section'>
-        <div className='reviews-section-title'>Projects</div>
-        <div className='reviews-section-description'>
-          Here's some of my latest projects.
+      <div className='area'>
+        <div className='reviews-section'>
+          <div className='reviews-section-title'>Projects</div>
+          <div className='reviews-section-description'>
+            Here's some of my latest projects.
+          </div>
         </div>
-      </div>
-      <div>
-        <div className='filters'>
-          {types.map((type, index) => {
-            return (
-              <div
-                onClick={() => {
-                  filterType(type);
-                }}
-                className={getTagClass(type)}
-                key={index}
-              >
-                {type}
-              </div>
-            );
-          })}
-        </div>
-        <div className='portfolio'>
-          {portfolioItems
-            .filter((portfolio, index) => {
-              return index < count;
-            })
-            .map((item, index) => {
+        <div>
+          <div className='filters'>
+            {types.map((type, index) => {
               return (
-                <Portfolio
-                  link={item.link}
-                  img={item.img}
-                  title={item.title}
+                <div
+                  onClick={() => {
+                    filterType(type);
+                  }}
+                  className={getTagClass(type)}
                   key={index}
-                  build={item.build}
-                />
+                >
+                  {type}
+                </div>
               );
             })}
-        </div>
-        <div className='flex center'>
-          {count > portfolioItems.length || count === portfolioItems.length ? (
-            ''
-          ) : (
-            <button
-              className='button mt-16'
-              onClick={() => setCount(count + 4)}
-            >
-              Check More
-            </button>
-          )}
+          </div>
+          <div className='portfolio'>
+            {portfolioItems
+              .filter((portfolio, index) => {
+                return index < count;
+              })
+              .map((item, index) => {
+                return (
+                  <Portfolio
+                    link={item.link}
+                    img={item.img}
+                    title={item.title}
+                    key={index}
+                    build={item.build}
+                  />
+                );
+              })}
+          </div>
+          <div className='flex center'>
+            {count > portfolioItems.length ||
+            count === portfolioItems.length ? (
+              ''
+            ) : (
+              <button
+                className='button mt-16'
+                onClick={() => setCount(count + 4)}
+              >
+                Check More
+              </button>
+            )}
+          </div>
         </div>
       </div>
       <Reviews />

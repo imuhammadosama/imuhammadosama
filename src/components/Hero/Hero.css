@@ -41,10 +41,12 @@
 
 @keyframes sendAnimation {
   0% {
+    opacity: 0;
     transform: translateX(-40px) translateY(40px);
   }
 
   100% {
+    opacity: 1;
     transform: translateX(0px) translateY(-0px);
   }
 }
@@ -115,4 +117,7 @@
   100% {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
+}
+
+@keyframes fadeInUp {
 }

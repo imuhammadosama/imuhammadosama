@@ -10,7 +10,7 @@ export default function () {
       <div className='topbar'>
         Have a project? -{' '}
         <span className='colored'>
-          &nbsp;<a href='https://imuhammadosama.com/wcall'>Call me.</a>
+          &nbsp;<a href='tel:+923352522522'>Call me.</a>
         </span>
       </div>
       <div className='navbar' id='navbar'>

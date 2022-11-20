@@ -14,7 +14,6 @@ body {
   background-size: auto;
   box-sizing: border-box;
   font-family: 'Sora';
-  max-width: 1200px;
   margin: auto;
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
@@ -30,6 +29,11 @@ body {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.area {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .clickable {
