@@ -20,6 +20,18 @@ body {
   overflow-y: scroll;
 }
 
+.colored {
+  background: -webkit-linear-gradient(
+    302deg,
+    #ff9447,
+    #ff64c1 29%,
+    #925eff 68%,
+    #1a1eff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .clickable {
   cursor: pointer;
 }

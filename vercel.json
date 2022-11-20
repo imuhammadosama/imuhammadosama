@@ -24,6 +24,31 @@
       "source": "/nofap",
       "destination": "https://share.habitify.me/UxnlHt8SqG",
       "permanent": true
+    },
+    {
+      "source": "/habits",
+      "destination": "https://app.habitify.me/journal/all-habits",
+      "permanent": true
+    },
+    {
+      "source": "/instagram",
+      "destination": "https://instagram.com/imuhammadosama",
+      "permanent": true
+    },
+    {
+      "source": "/twitter",
+      "destination": "https://twitter.com/imuhammadosama",
+      "permanent": true
+    },
+    {
+      "source": "/facebook",
+      "destination": "https://facebook.com/imuhammadosama",
+      "permanent": true
+    },
+    {
+      "source": "/tiktok",
+      "destination": "https://tiktok.com/@imuhammadosama",
+      "permanent": true
     }
   ]
 }

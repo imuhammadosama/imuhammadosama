@@ -1,8 +1,5 @@
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0px 20px 0px;
+  padding: 64px 0px 64px 0px;
 }
 
 .back-to-top {
@@ -46,4 +43,28 @@
 }
 .show {
   opacity: 1;
+}
+
+.footer-notes {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-notes-text {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand-name {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icon {
+  margin-right: 16px;
 }
