@@ -76,6 +76,7 @@ export default function Home() {
                     title={item.title}
                     key={index}
                     build={item.build}
+                    date={item.date}
                   />
                 );
               })}

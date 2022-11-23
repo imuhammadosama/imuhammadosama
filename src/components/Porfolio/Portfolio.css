@@ -142,6 +142,9 @@
     flex-direction: column;
     padding: 20px;
   }
+  .portfolio-type {
+    display: flex;
+  }
   .portfolio-item {
     margin-right: 0px !important;
     margin-left: 0px !important;
