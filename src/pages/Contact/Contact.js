@@ -134,7 +134,7 @@ export default function () {
           <div className='contact-detail'>
             <div className='contact-detail-title'>Email</div>
             <div className='contact-detail-description'>
-              imuhammadosama@icloud.com
+              themuhammadosama@gmail.com
             </div>
           </div>
           <div className='contact-detail'>

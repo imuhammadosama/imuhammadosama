@@ -54,7 +54,7 @@ export default function () {
       <div className='about-experience'>
         <div className='about-experience-title'>💼 Experience</div>
         <div className='about-experience-details'>
-          <div className='about-experience-date'>Jan 2020 - Present</div>
+          <div className='about-experience-date'>Jan 2020 - Dec 2022</div>
           <div className='about-experience-description'>
             <div className='about-experience-description-title'>
               Co-Founder, Solver’s Cave
