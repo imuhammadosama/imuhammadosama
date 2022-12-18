@@ -64,6 +64,11 @@
       "source": "/messenger",
       "destination": "https://messenger.com/imuhammadosama",
       "permanent": true
+    },
+    {
+      "source": "/figma/online-sushi",
+      "destination": "https://www.figma.com/proto/VnX5B9YOJy6vj7Y8TJcaBl/Online-Sushi?node-id=39%3A41&scaling=min-zoom&page-id=7%3A47&hide-ui=1",
+      "permanent": true
     }
   ]
 }
