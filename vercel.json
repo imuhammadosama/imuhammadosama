@@ -66,8 +66,8 @@
       "permanent": true
     },
     {
-      "source": "/onlinesushi",
-      "destination": "aaple.com",
+      "source": "/figma/online-sushi",
+      "destination": "https://www.figma.com/proto/VnX5B9YOJy6vj7Y8TJcaBl/Online-Sushi",
       "permanent": true
     }
   ]
