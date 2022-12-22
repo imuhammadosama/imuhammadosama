@@ -1,4 +1,5 @@
 import './Files.css';
+import searchIcon from '../../../assets/search.svg';
 import axios from 'axios';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -49,13 +50,21 @@ export default function () {
     );
   }
   return (
-    <div className='file-page'>
-      <div>
-        <input
-          className='file-search'
-          placeholder='search file'
-          onChange={(e) => search(e)}
-        />
+    <div>
+      <div className='search'>
+        <div className='search-field'>
+          <input
+            id='search-input'
+            placeholder='Search files'
+            onChange={(e) => {
+              search(e.target.value);
+            }}
+          ></input>
+          <img src={searchIcon} id='search-icon' />
+          <select className='search-select'>
+            <option value='all'>All</option>
+          </select>
+        </div>
       </div>
       <div className='file-cards'>
         {files.map((file, index) => {

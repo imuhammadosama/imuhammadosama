@@ -1,11 +1,6 @@
-.file-page {
-  margin-top: 4rem;
-}
-
 .file-cards {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0rem 4rem 0rem;
   flex-wrap: wrap;
 }
 

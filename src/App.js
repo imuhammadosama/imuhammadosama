@@ -6,7 +6,7 @@ import Empty from './pages/Empty/Empty';
 import Home from './pages/Home';
 import About from './pages/About/About';
 import Resources from './pages/Resources/Resources';
-import Files from './pages/Files/Files';
+import Files from './pages/Resources/Files/Files';
 import Contact from './pages/Contact/Contact';
 
 function App() {
