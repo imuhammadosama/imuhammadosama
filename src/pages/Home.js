@@ -6,7 +6,6 @@ import { websites } from '../data/websites';
 
 import Hero from '../components/Hero/Hero';
 import Reviews from '../components/Reviews/Reviews';
-import CTA from '../components/CTA/cta';
 
 export default function Home() {
   const [count, setCount] = useState(8);
@@ -97,7 +96,6 @@ export default function Home() {
         </div>
       </div>
       <Reviews />
-      <CTA />
     </div>
   );
 }
