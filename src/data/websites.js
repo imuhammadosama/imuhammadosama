@@ -9,7 +9,7 @@ export const websites = [
   {
     title: 'ROUTD',
     link: 'https://muhammadosama.xyz/routd/',
-    img: 'http://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1667642842/iya2wffjcyqgrc6mrtr1.webp',
+    img: 'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1667642842/iya2wffjcyqgrc6mrtr1.webp',
     type: 'Business',
     date: 'October 27, 2022',
   },
