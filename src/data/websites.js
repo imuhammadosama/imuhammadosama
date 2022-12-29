@@ -35,4 +35,11 @@ export const websites = [
     type: 'Hobby',
     date: 'Dec 25, 2022',
   },
+  {
+    title: 'Scroll Reddit',
+    link: 'https://scrollreddit.com',
+    img: 'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1672304285/xtpcmsygg4ulyxol9jni.webp',
+    type: 'Hobby',
+    date: 'Dec 29, 2022',
+  },
 ];
