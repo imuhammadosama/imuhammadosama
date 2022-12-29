@@ -2,12 +2,12 @@ import { useState } from 'react';
 
 import './Home.css';
 
-import Portfolio from '../components/Porfolio/Portfolio';
+import Portfolio from '../../components/Porfolio/Portfolio';
 
-import { websites } from '../data/websites';
+import { websites } from '../../data/websites';
 
-import Hero from '../components/Hero/Hero';
-import Reviews from '../components/Reviews/Reviews';
+import Hero from '../../components/Hero/Hero';
+import Reviews from '../../components/Reviews/Reviews';
 
 export default function Home() {
   const [count, setCount] = useState(8);

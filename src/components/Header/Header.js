@@ -72,6 +72,15 @@ export default function () {
             About
           </Link>
           <Link
+            to='blog'
+            className={
+              selectedItem === 'Blog' ? 'menu-item-active' : 'menu-item'
+            }
+            onClick={() => setSelectedItem('Blog')}
+          >
+            Blog
+          </Link>
+          <Link
             to='contact'
             className={
               selectedItem === 'Contact' ? 'menu-item-active' : 'menu-item'
@@ -121,7 +130,7 @@ export default function () {
                 fill='none'
                 xmlns='http://www.w3.org/2000/svg'
               >
-                <g clip-path='url(#clip0_9_7)'>
+                <g clipPath='url(#clip0_9_7)'>
                   <path
                     d='M26 0H16C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32H26C34.8366 32 42 24.8366 42 16C42 7.16344 34.8366 0 26 0Z'
                     fill='url(#paint0_linear_9_7)'
@@ -208,6 +217,15 @@ export default function () {
                   className='burger-item'
                 >
                   About
+                </Link>
+              </div>
+              <div className='burger-items'>
+                <Link
+                  to='/Blog'
+                  onClick={() => setSelectedItem('blog')}
+                  className='burger-item'
+                >
+                  Blog
                 </Link>
               </div>
               <div className='burger-items'>
