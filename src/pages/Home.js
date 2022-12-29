@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import './Home.css';
+
 import Portfolio from '../components/Porfolio/Portfolio';
 
 import { websites } from '../data/websites';

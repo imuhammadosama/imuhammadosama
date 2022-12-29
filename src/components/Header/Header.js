@@ -13,7 +13,7 @@ export default function () {
           &nbsp;<a href='tel:+923352522522'>Call me.</a>
         </span>
       </div>
-      <div className='navbar' id='navbar'>
+      <div className='navbar pt-64' id='navbar'>
         <Link to='/' className='logo clickable'>
           <div className='favicon'>
             <svg
