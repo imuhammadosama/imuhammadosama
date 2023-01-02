@@ -14,7 +14,7 @@ export default function () {
         </div>
         <a
           className='button email-button'
-          href='mailto:imuhammadosama@icloud.com'
+          href='mailto:themuhammadosama@gmail.com'
         >
           <span>Email Me</span>
           <span className='email-send-button'>
