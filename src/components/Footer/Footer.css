@@ -7,6 +7,7 @@
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border-radius: 50px;
   padding: 8px 6px 3px 16px;
+  transition: bottom 0.3s;
 }
 
 .connect > a {
