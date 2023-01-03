@@ -3,6 +3,8 @@ import Gmail from '../../assets/connect/gmail.svg';
 import WhatsApp from '../../assets/connect/whatsapp.svg';
 import Skype from '../../assets/connect/skype.svg';
 import Messenger from '../../assets/connect/messenger.svg';
+import Twitter from '../../assets/connect/twitter.svg';
+import Linkedin from '../../assets/connect/linkedin.svg';
 
 export default function () {
   return (
@@ -20,6 +22,12 @@ export default function () {
           </a>
           <a href='https://www.messenger.com/t/imuhammadosama' target='_blank'>
             <img src={Messenger} />
+          </a>
+          <a href='https://www.twitter.com/imuhammadosama' target='_blank'>
+            <img src={Twitter} />
+          </a>
+          <a href='https://www.linkedin.com/imuhammadosama' target='_blank'>
+            <img src={Linkedin} />
           </a>
         </div>
       </div>
