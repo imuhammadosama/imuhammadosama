@@ -73,7 +73,7 @@ export default function Home() {
                 return (
                   <Portfolio
                     link={item.link}
-                    img={item.img}
+                    image={item.image}
                     title={item.title}
                     key={index}
                     build={item.build}

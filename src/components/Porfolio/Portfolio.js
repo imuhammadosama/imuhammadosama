@@ -5,7 +5,7 @@ export default function (props) {
     <div className='portfolio-items'>
       <a className='portfolio-item' href={props.link} target='_blank'>
         <img
-          src={props.img}
+          src={props.image}
           alt=''
           className='portfolio-img'
           width='720'
