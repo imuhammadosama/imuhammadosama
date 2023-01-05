@@ -30,7 +30,7 @@ export default function () {
           <a href='https://wa.me/+923352522522' target='_blank'>
             <img src={WhatsApp} />
           </a>
-          <a href=''>
+          <a href='https://join.skype.com/invite/oIfyThBmRrDo'>
             <img src={Skype} />
           </a>
           <a href='https://www.messenger.com/t/imuhammadosama' target='_blank'>
