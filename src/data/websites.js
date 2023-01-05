@@ -23,6 +23,18 @@ export const websites = [
     email2: 'info@dashblack.com',
   },
   {
+    title: 'Medicosurveillance',
+    link: 'https://www.medicosurveillance.com.au/',
+    image:
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1672925397/gj6yllppjapod5xbobrd.webp',
+    type: 'Medical',
+    build: '',
+    date: 'Jan 7, 2023',
+    client: '',
+    email: 'info@medicosurveillance.com.au',
+    phone: '61402763764',
+  },
+  {
     title: 'ROUTD',
     link: 'https://muhammadosama.xyz/routd/',
     image:
@@ -95,20 +107,29 @@ export const websites = [
     date: 'Jan 4, 2023',
   },
   {
-    title: 'Medicosurveillance',
-    link: 'https://www.medicosurveillance.com.au/',
-    image: '',
-    type: 'Medical',
+    title: 'Juggernaut',
+    link: '',
+    image:
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1672925538/ne09lwmfchd3vqafgvck.webp',
+    type: 'UI/UX',
+    build: 'Figma',
+    date: 'Jan 9, 2023',
+    client: 'Zohaib Matloob',
+  },
+  {
+    title: 'Dairy Farm Products',
+    link: '',
+    image:
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1672925908/rfudsssgznpx1qiptgrl.webp',
+    type: 'UI/UX',
     build: '',
-    date: 'Jan 7, 2023',
-    client: '',
-    email: 'info@medicosurveillance.com.au',
-    phone: '61402763764',
+    date: 'Jan 8, 2023',
   },
   {
     title: 'Clocks Cave',
     link: 'https://clock.imuhammadosama.com',
-    image: '',
+    image:
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1672926846/iqc1zstpvwvq8jbno4ge.webp',
     type: 'Hobby',
     build: 'ReactJS',
     date: 'Jan 1, 2023',
@@ -119,7 +140,8 @@ export const websites = [
   {
     title: 'Scroll Reddit',
     link: 'https://reddit.imuhammadosama.com',
-    image: '',
+    image:
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1672928613/atxnftyqdwtultymztdp.webp',
     type: 'Hobby',
     build: 'ReactJS',
     date: 'Jan 3, 2023',
@@ -130,7 +152,8 @@ export const websites = [
   {
     title: 'Uploads Cave',
     link: 'https://upload.imuhammadosama.com',
-    image: '',
+    image:
+      'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1672926689/sww7e1rmtrjyqmdpmhsr.webp',
     type: 'Hobby',
     build: 'ReactJS',
     date: 'Jan 5, 2023',
@@ -145,21 +168,5 @@ export const websites = [
     type: 'Market Place',
     build: '',
     date: 'Jan 6, 2023',
-  },
-  {
-    title: 'Dairy Farm Products',
-    link: '',
-    image: '',
-    type: 'UI/UX',
-    build: '',
-    date: 'Jan 8, 2023',
-  },
-  {
-    title: 'Juggernaut',
-    link: '',
-    image: '',
-    type: 'UI/UX',
-    build: '',
-    date: 'Jan 9, 2023',
   },
 ];
