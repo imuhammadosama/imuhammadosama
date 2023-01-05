@@ -41,7 +41,8 @@ export default function () {
         </a>
         <div className='hero-image-section'>
           <img
-            src='https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1668251061/vlgc8dtm5hrtx8on7vsy.webp'
+            onClick={() => window.open('https://rout-d.com')}
+            src='https://res.cloudinary.com/dvwpbbisf/image/upload/v1672920349/Untitled-2_vxfmqp.gif'
             className='hero-image'
           />
         </div>
