@@ -6,10 +6,9 @@ export default function () {
         <div className='hero-description'>Hello 👋, This is Osama!</div>
         <div className='hero-title'>
           <div className='hero-title-one'>
-            <span className='hero-title-one-colored'>Building websites </span>
-            at
+            <span className='hero-title-one-colored'>Designing websites </span>
             <br />
-            afforable price.
+            that drive results.
           </div>
         </div>
         <a
@@ -42,7 +41,7 @@ export default function () {
         <div className='hero-image-section'>
           <img
             onClick={() => window.open('https://rout-d.com')}
-            src='https://res.cloudinary.com/dvwpbbisf/image/upload/v1672920349/Untitled-2_vxfmqp.gif'
+            src='https://res.cloudinary.com/dvwpbbisf/image/upload/v1672933569/Untitled-3_ucomj0.gif'
             className='hero-image'
           />
         </div>
