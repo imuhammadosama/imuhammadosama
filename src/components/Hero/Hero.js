@@ -1,5 +1,32 @@
+import { useEffect, useState } from 'react';
 import './Hero.css';
 export default function () {
+  const [image, setImage] = useState(
+    'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1673088952/knsc5i214ij9xqvyzw0z.webp'
+  );
+  const heroPortfolioImg1 =
+    'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1673088952/knsc5i214ij9xqvyzw0z.webp';
+  const heroPortfolioImg2 =
+    'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1673088959/jvhwzztqxprzufwfmxxo.webp';
+  const heroPortfolioImg3 =
+    'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1673088968/q1k65kvnhwodaanvofyg.webp';
+  const heroPortfolioImg4 =
+    'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1673088965/subnrocu8evuyh2s67zq.webp';
+
+  useEffect(() => {
+    setInterval(() => {
+      if (image === heroPortfolioImg1) {
+        setImage(heroPortfolioImg2);
+      } else if (image === heroPortfolioImg2) {
+        setImage(heroPortfolioImg3);
+      } else if (image === heroPortfolioImg3) {
+        setImage(heroPortfolioImg4);
+      } else if (image === heroPortfolioImg4) {
+        setImage(heroPortfolioImg1);
+      }
+    }, 3000);
+  }, [image]);
+
   return (
     <div className='hero'>
       <div className='hero-text'>
@@ -39,11 +66,7 @@ export default function () {
           </span>
         </a>
         <div className='hero-image-section'>
-          <img
-            onClick={() => window.open('https://rout-d.com')}
-            src='https://res.cloudinary.com/dvwpbbisf/image/upload/v1672933569/Untitled-3_ucomj0.gif'
-            className='hero-image'
-          />
+          <img src={image} className='hero-image' id='hero-portfolio' />
         </div>
       </div>
     </div>
