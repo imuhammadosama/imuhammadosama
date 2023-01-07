@@ -14,7 +14,7 @@ export default function () {
     'https://res.cloudinary.com/dvwpbbisf/image/upload/q_auto:eco/v1673088965/subnrocu8evuyh2s67zq.webp';
 
   useEffect(() => {
-    setInterval(() => {
+    setTimeout(() => {
       if (image === heroPortfolioImg1) {
         setImage(heroPortfolioImg2);
       } else if (image === heroPortfolioImg2) {
