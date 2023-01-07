@@ -9,7 +9,7 @@ export default function () {
   return (
     <div>
       <div className='topbar' id='topbar'>
-        Have a project? -{' '}
+        Need a website? -{' '}
         <span className='colored'>
           &nbsp;<a href='tel:+923352522522'>Call me.</a>
         </span>
