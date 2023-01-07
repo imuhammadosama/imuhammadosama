@@ -138,18 +138,6 @@ export const websites = [
     phone: '923352522522',
   },
   {
-    title: 'Scroll Reddit',
-    link: 'https://reddit.imuhammadosama.com',
-    image:
-      'https://res.cloudinary.com/dvwpbbisf/image/upload/h_1281,q_75,w_720/v1672928613/atxnftyqdwtultymztdp.webp',
-    type: 'Hobby',
-    build: 'ReactJS',
-    date: 'Jan 3, 2023',
-    client: 'Muhammad Osama',
-    email: 'themuhammadosama@gmail.com',
-    phone: '923352522522',
-  },
-  {
     title: 'Uploads Cave',
     link: 'https://upload.imuhammadosama.com',
     image:
